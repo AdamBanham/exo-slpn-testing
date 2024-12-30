@@ -9,6 +9,10 @@ folder can be found here: [ExogenousData Plugin](https://github.com/promworkbenc
 in-depth breakdown on the code and reproduction steps can be found in the 
 readmes in each sub-folder.
 
+### Repository Notes
+
+In order to track and upload some files git LFS has been used. If you do not have Git LFS enabled, pulling down some files may require further steps. See [docs.github.com/en/repositories/working-with-files/managing-large-files/collaboration-with-git-large-file-storage](https://docs.github.com/en/repositories/working-with-files/managing-large-files/collaboration-with-git-large-file-storage) for more information.
+
 ## Event logs
 This evaluation uses three event logs, from different domains, paired with 
 exogenous data.
