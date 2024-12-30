@@ -7,7 +7,7 @@ scripted used to prepare and generate exogenous data.
 Notably, MIMIC data cannot be directly redistrubed so instead we refer users
 back to our previous work for the extraction processes [1].
 
-For existing approaches, the ProM Gui was used to perform discovery and
+For existing approaches, the ProM GUI was used to perform discovery and
 conformance checking. While for the proposed approch a programatic code runner 
 is provided.
 
