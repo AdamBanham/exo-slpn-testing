@@ -1,0 +1,146 @@
+# Weight Form
+1
+# adjusters
+2
+# adjusters
+$fines
+&#35;fines
+# number of places
+6
+# initial marking
+1
+0
+0
+0
+0
+0
+# number of transitions
+8
+# transition 0
+silent
+# base weight 
+1.1550003518768992E-4
+# adjustments for exogenous data
+1.0
+1.0
+# adjustments without exogenous data
+1.0
+1.0
+# number of input places
+1
+0
+# number of output places
+1
+1
+# transition 1
+label Send for Credit Collection
+# base weight 
+1.0
+# adjustments for exogenous data
+1.0
+1.0
+# adjustments without exogenous data
+1.0
+1.0
+# number of input places
+1
+2
+# number of output places
+1
+1
+# transition 2
+label Add penalty
+# base weight 
+1.0
+# adjustments for exogenous data
+1.0
+1.0
+# adjustments without exogenous data
+1.0
+1.0
+# number of input places
+1
+3
+# number of output places
+1
+2
+# transition 3
+label Insert Fine Notification
+# base weight 
+5.209991154008962
+# adjustments for exogenous data
+3.5436130263643737E-4
+3.5490064929150344E-4
+# adjustments without exogenous data
+1.0
+1.0
+# number of input places
+1
+4
+# number of output places
+1
+3
+# transition 4
+label Payment
+# base weight 
+0.4578989096264149
+# adjustments for exogenous data
+112.68297739232989
+131.30243398452788
+# adjustments without exogenous data
+1.0
+1.0
+# number of input places
+1
+5
+# number of output places
+1
+1
+# transition 5
+label Send Fine
+# base weight 
+4.111728251671235E-4
+# adjustments for exogenous data
+135.23241309436324
+214.6270372259207
+# adjustments without exogenous data
+1.0
+1.0
+# number of input places
+1
+5
+# number of output places
+1
+4
+# transition 6
+label Create Fine
+# base weight 
+7.038812195342618
+# adjustments for exogenous data
+3.32412518492221E-4
+3.353296480517771E-4
+# adjustments without exogenous data
+1.0
+1.0
+# number of input places
+1
+0
+# number of output places
+1
+5
+# transition 7
+silent
+# base weight 
+4.951488029928676E-4
+# adjustments for exogenous data
+1.0
+1.0
+# adjustments without exogenous data
+70.86569592330272
+70.86569592330274
+# number of input places
+1
+4
+# number of output places
+1
+1

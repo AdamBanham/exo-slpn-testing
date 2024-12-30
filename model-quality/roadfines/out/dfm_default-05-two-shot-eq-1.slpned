@@ -1,0 +1,146 @@
+# Weight Form
+0
+# adjusters
+2
+# adjusters
+$fines
+&#35;fines
+# number of places
+6
+# initial marking
+1
+0
+0
+0
+0
+0
+# number of transitions
+8
+# transition 0
+silent
+# base weight 
+1.1102868433780933E-4
+# adjustments for exogenous data
+849.9948913245079
+1.6897467805746972E-4
+# adjustments without exogenous data
+1.0
+1.0
+# number of input places
+1
+0
+# number of output places
+1
+1
+# transition 1
+label Send for Credit Collection
+# base weight 
+1.0
+# adjustments for exogenous data
+1.0
+1.0
+# adjustments without exogenous data
+1.0
+1.0
+# number of input places
+1
+2
+# number of output places
+1
+1
+# transition 2
+label Add penalty
+# base weight 
+1.0
+# adjustments for exogenous data
+1.0
+1.0
+# adjustments without exogenous data
+1.0
+1.0
+# number of input places
+1
+3
+# number of output places
+1
+2
+# transition 3
+label Insert Fine Notification
+# base weight 
+3.969332874175602
+# adjustments for exogenous data
+1.7417600730342868
+14.666263389945456
+# adjustments without exogenous data
+4.999726362106701E-4
+4.9997263621067E-4
+# number of input places
+1
+4
+# number of output places
+1
+3
+# transition 4
+label Payment
+# base weight 
+6.994632992146704E-4
+# adjustments for exogenous data
+55.29560453375758
+3.5032941562494025E-4
+# adjustments without exogenous data
+1.0
+1.0
+# number of input places
+1
+5
+# number of output places
+1
+1
+# transition 5
+label Send Fine
+# base weight 
+3.1845993505763136E-4
+# adjustments for exogenous data
+51.72031313727012
+6.500757278934489E-4
+# adjustments without exogenous data
+1.0
+1.0
+# number of input places
+1
+5
+# number of output places
+1
+4
+# transition 6
+label Create Fine
+# base weight 
+4.0000004168208605
+# adjustments for exogenous data
+850.0051086483011
+8.959034359858743E-4
+# adjustments without exogenous data
+1.0
+1.0
+# number of input places
+1
+0
+# number of output places
+1
+5
+# transition 7
+silent
+# base weight 
+0.8431570637479207
+# adjustments for exogenous data
+3.997470034836142E-4
+14.209712642849857
+# adjustments without exogenous data
+5.460060316067045
+5.460060316067045
+# number of input places
+1
+4
+# number of output places
+1
+1

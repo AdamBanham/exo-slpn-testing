@@ -1,0 +1,3241 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 2.0 -->
+<!-- OpenXES library version: 2.28 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="2.0" xes.features="nested-attributes" openxes.version="2.28">
+	<string key="concept:name" value="Sampled Log"/>
+	<string key="origin" value="csv"/>
+	<trace>
+		<string key="concept:name" value="WF_101_5"/>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:52"/>
+			<string key="current_task" value="unloading a empty bucket from slot 0"/>
+			<string key="case:concept:name" value="WF_101_5"/>
+			<string key="SubProcessID" value="5512a4ca-022a-4a8a-b44f-33b0a7f4e45a"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/unload?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T14:24:04.835+02:00"/>
+			<string key="event_id" value="380"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/unload"/>
+			<date key="operation_end_time" value="2021-06-25T14:24:56.950+02:00"/>
+			<string key="identifier:id" value="a_4744"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_5"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:40"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the high_bay_warehouse to the dm_2_sink"/>
+			<string key="case:concept:name" value="WF_101_5"/>
+			<string key="SubProcessID" value="d8779b38-fd23-464d-bda5-e424c0a3d718"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_2&amp;start=hbw_2_pos&amp;end=dm_2_sink_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T14:25:01.731+02:00"/>
+			<string key="event_id" value="381"/>
+			<string key="org:resource" value="vgr_2"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T14:25:46.934+02:00"/>
+			<string key="identifier:id" value="a_4752"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hbw_2_pos"/>
+				<string key="parameter_end_position" value="dm_2_sink_pos"/>
+			</list>
+			<string key="case" value="WF_101_5"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:47"/>
+			<string key="current_task" value="storing a new empty bucket in slot 0"/>
+			<string key="case:concept:name" value="WF_101_5"/>
+			<string key="SubProcessID" value="56ee52b5-0a23-48cc-b2af-2e910e9056b0"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/store_empty_bucket?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T14:25:52.760+02:00"/>
+			<string key="event_id" value="382"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/store_empty_bucket"/>
+			<date key="operation_end_time" value="2021-06-25T14:26:32.934+02:00"/>
+			<string key="identifier:id" value="a_4756"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_5"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the dm_2_sink to the oven"/>
+			<string key="case:concept:name" value="WF_101_5"/>
+			<string key="SubProcessID" value="78146e58-35d9-4e59-af7a-8beafb0bd096"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=dm_2_sink_pos&amp;end=ov_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T14:25:54.075+02:00"/>
+			<string key="event_id" value="383"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T14:26:36.293+02:00"/>
+			<string key="identifier:id" value="a_4764"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="dm_2_sink_pos"/>
+				<string key="parameter_end_position" value="ov_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_5"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:03:42"/>
+			<string key="current_task" value="burning the workpiece of size regular and thickness thinfor 10 seconds"/>
+			<string key="case:concept:name" value="WF_101_5"/>
+			<string key="SubProcessID" value="1f2bcf26-92f9-4311-b252-123487cd0da8"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/burn?resource=ov_1&amp;size=regular&amp;thickness=thin&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T14:26:44.372+02:00"/>
+			<string key="event_id" value="384"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/burn"/>
+			<date key="operation_end_time" value="2021-06-25T14:27:05.402+02:00"/>
+			<string key="identifier:id" value="a_4775"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_burn_workpiece_size" value="regular"/>
+				<string key="parameter_burn_workpiece_thickness" value="thin"/>
+			</list>
+			<string key="case" value="WF_101_5"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:56"/>
+			<string key="current_task" value="temper the workpiece with intensity: ov_1_temper_high for 40 seconds"/>
+			<string key="case:concept:name" value="WF_101_5"/>
+			<string key="SubProcessID" value="019f360f-f22c-4526-8f36-d0aae6cc890c"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/temper?resource=ov_1&amp;intensity=ov_1_temper_high&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T14:27:11.107+02:00"/>
+			<string key="event_id" value="387"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/temper"/>
+			<date key="operation_end_time" value="2021-06-25T14:28:02.230+02:00"/>
+			<string key="identifier:id" value="a_4781"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_temper_intensity" value="ov_1_temper_high"/>
+			</list>
+			<string key="case" value="WF_101_5"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:22"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the oven to the milling_machine"/>
+			<string key="case:concept:name" value="WF_101_5"/>
+			<string key="SubProcessID" value="cce0898d-eb85-46bb-b095-752cefb52288"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/wt/pick_up_and_transport?resource=wt_1&amp;start=ov_1_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T14:28:11.262+02:00"/>
+			<string key="event_id" value="389"/>
+			<string key="org:resource" value="wt_1"/>
+			<string key="concept:name" value="/wt/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T14:28:37.528+02:00"/>
+			<string key="identifier:id" value="a_4808"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="ov_1_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_5"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:05"/>
+			<string key="current_task" value="transporting the workpiece from the initial to the mill, milling it and transporting it to the initial afterwards"/>
+			<string key="case:concept:name" value="WF_101_5"/>
+			<string key="SubProcessID" value="9160269e-ec8d-4529-9dc6-afeeb39c7674"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/mm/mill?resource=mm_1&amp;start=mm_1_initial_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T14:28:47.466+02:00"/>
+			<string key="event_id" value="391"/>
+			<string key="org:resource" value="mm_1"/>
+			<string key="concept:name" value="/mm/mill"/>
+			<date key="operation_end_time" value="2021-06-25T14:28:52.730+02:00"/>
+			<string key="identifier:id" value="a_4827"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="mm_1_initial_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_5"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:14"/>
+			<string key="current_task" value="transporting the workpiece from the initial to the mill, deburring it and transporting it to the ejection afterwards"/>
+			<string key="case:concept:name" value="WF_101_5"/>
+			<string key="SubProcessID" value="dcbbfe8f-6277-4393-9d95-8d99fdcca6e3"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/mm/deburr?resource=mm_1&amp;start=mm_1_initial_pos&amp;end=sm_1_lb_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T14:28:59.028+02:00"/>
+			<string key="event_id" value="393"/>
+			<string key="org:resource" value="mm_1"/>
+			<string key="concept:name" value="/mm/deburr"/>
+			<date key="operation_end_time" value="2021-06-25T14:29:13.043+02:00"/>
+			<string key="identifier:id" value="a_4831"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="mm_1_initial_pos"/>
+				<string key="parameter_end_position" value="sm_1_lb_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_5"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:12"/>
+			<string key="current_task" value="sorting the workpiece which is located at initial without using the nfc reader into the predefined ejection location none"/>
+			<string key="case:concept:name" value="WF_101_5"/>
+			<string key="SubProcessID" value="c774cac8-92c6-40c0-92f4-7fbd7adad68b"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/sm/sort?resource=sm_1&amp;start=sm_1_lb_1_pos&amp;use_nfc=false&amp;end=sm_1_automatic_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T14:29:15.871+02:00"/>
+			<string key="event_id" value="395"/>
+			<string key="org:resource" value="sm_1"/>
+			<string key="concept:name" value="/sm/sort"/>
+			<date key="operation_end_time" value="2021-06-25T14:29:26.294+02:00"/>
+			<string key="identifier:id" value="a_4839"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_use_nfc" value="false"/>
+				<string key="parameter_start_position" value="sm_1_lb_1_pos"/>
+				<string key="parameter_end_position" value="sm_1_automatic_pos"/>
+				<float key="parameter_sorting_machine_ejection_position" value="2.0"/>
+			</list>
+			<string key="case" value="WF_101_5"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:39"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the sink_2 to the human_workstation"/>
+			<string key="case:concept:name" value="WF_101_5"/>
+			<string key="SubProcessID" value="a3f1bec2-1545-4d4d-8a2d-09aba09bc56f"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=sm_1_sink_2_pos&amp;end=hw_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T14:29:31.685+02:00"/>
+			<string key="event_id" value="399"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T14:30:10.199+02:00"/>
+			<string key="identifier:id" value="a_4852"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="sm_1_sink_2_pos"/>
+				<string key="parameter_end_position" value="hw_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_5"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:01:42"/>
+			<string key="current_task" value="performing a human review of the workpiece"/>
+			<string key="case:concept:name" value="WF_101_5"/>
+			<string key="SubProcessID" value="ef8abe35-d817-4636-a2c1-d1e42b69dc60"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hw/human_review?resource=hw_1&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T14:30:18.699+02:00"/>
+			<float key="human_workstation_green_button_pressed" value="1.0"/>
+			<string key="event_id" value="401"/>
+			<string key="org:resource" value="hw_1"/>
+			<string key="concept:name" value="/hw/human_review"/>
+			<date key="operation_end_time" value="2021-06-25T14:30:20.559+02:00"/>
+			<string key="identifier:id" value="a_4878"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters"/>
+			<string key="case" value="WF_101_5"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="unloading a empty bucket from slot 0"/>
+			<string key="case:concept:name" value="WF_101_5"/>
+			<string key="SubProcessID" value="d76cd0fd-9409-422e-8060-f07c2b3642a6"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/get_empty_bucket?resource=hbw_1&amp;slot=hbw_1_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T14:30:23.450+02:00"/>
+			<string key="event_id" value="404"/>
+			<string key="org:resource" value="hbw_1"/>
+			<string key="concept:name" value="/hbw/get_empty_bucket"/>
+			<date key="operation_end_time" value="2021-06-25T14:31:15.294+02:00"/>
+			<string key="identifier:id" value="a_4881"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_1_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_5"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:24"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the human_workstation to the waiting_platform"/>
+			<string key="case:concept:name" value="WF_101_5"/>
+			<string key="SubProcessID" value="390e432d-23d4-4f58-9a0d-e1d7ddd28dc2"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=hw_1_pos&amp;end=hbw_1_waiting_platform_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T14:31:09.777+02:00"/>
+			<string key="event_id" value="405"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T14:31:33.341+02:00"/>
+			<string key="identifier:id" value="a_4891"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hw_1_pos"/>
+				<string key="parameter_end_position" value="hbw_1_waiting_platform_pos"/>
+			</list>
+			<string key="case" value="WF_101_5"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:15"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the waiting_platform to the high_bay_warehouse"/>
+			<string key="case:concept:name" value="WF_101_5"/>
+			<string key="SubProcessID" value="354e40bf-72fe-4d75-b1e7-2f98ba6d8726"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=hbw_1_waiting_platform_pos&amp;end=hbw_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T14:31:52.216+02:00"/>
+			<string key="event_id" value="409"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T14:32:11.669+02:00"/>
+			<string key="identifier:id" value="a_4919"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hbw_1_waiting_platform_pos"/>
+				<string key="parameter_end_position" value="hbw_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_5"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="storing a new full bucket in slot 0"/>
+			<string key="case:concept:name" value="WF_101_5"/>
+			<string key="SubProcessID" value="0ccbbcdc-d67a-4626-9abb-d6d433792262"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/store?resource=hbw_1&amp;slot=hbw_1_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T14:32:21.389+02:00"/>
+			<string key="event_id" value="411"/>
+			<string key="org:resource" value="hbw_1"/>
+			<string key="concept:name" value="/hbw/store"/>
+			<date key="operation_end_time" value="2021-06-25T14:33:01.312+02:00"/>
+			<string key="identifier:id" value="a_4935"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_1_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_5"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="WF_101_20"/>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:52"/>
+			<string key="current_task" value="unloading a empty bucket from slot 0"/>
+			<string key="case:concept:name" value="WF_101_20"/>
+			<string key="SubProcessID" value="2231e9fe-7013-4afc-87d0-31db971df4d9"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/unload?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T10:45:44.295+02:00"/>
+			<string key="event_id" value="1605"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/unload"/>
+			<date key="operation_end_time" value="2021-07-01T10:46:30.373+02:00"/>
+			<string key="identifier:id" value="a_21096"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_20"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:40"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the high_bay_warehouse to the dm_2_sink"/>
+			<string key="case:concept:name" value="WF_101_20"/>
+			<string key="SubProcessID" value="ac41d40a-4875-443b-b366-37e437976409"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_2&amp;start=hbw_2_pos&amp;end=dm_2_sink_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T10:47:32.873+02:00"/>
+			<string key="event_id" value="1615"/>
+			<string key="org:resource" value="vgr_2"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-01T10:48:16.889+02:00"/>
+			<string key="identifier:id" value="a_21312"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hbw_2_pos"/>
+				<string key="parameter_end_position" value="dm_2_sink_pos"/>
+			</list>
+			<string key="case" value="WF_101_20"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:47"/>
+			<string key="current_task" value="storing a new empty bucket in slot 0"/>
+			<string key="case:concept:name" value="WF_101_20"/>
+			<string key="SubProcessID" value="1ad0901e-0633-4f13-a7e2-d0858a99bfbe"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/store_empty_bucket?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T10:48:22.326+02:00"/>
+			<string key="event_id" value="1620"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/store_empty_bucket"/>
+			<date key="operation_end_time" value="2021-07-01T10:49:02.014+02:00"/>
+			<string key="identifier:id" value="a_21337"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_20"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the dm_2_sink to the oven"/>
+			<string key="case:concept:name" value="WF_101_20"/>
+			<string key="SubProcessID" value="03aba70d-832c-4067-8821-0b7d3208e798"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=dm_2_sink_pos&amp;end=ov_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T10:51:43.732+02:00"/>
+			<string key="event_id" value="1636"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-01T10:52:33.404+02:00"/>
+			<string key="identifier:id" value="a_21608"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="dm_2_sink_pos"/>
+				<string key="parameter_end_position" value="ov_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_20"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:03:42"/>
+			<string key="current_task" value="burning the workpiece of size regular and thickness thinfor 10 seconds"/>
+			<string key="case:concept:name" value="WF_101_20"/>
+			<string key="SubProcessID" value="9fa9cb2d-5e8f-4750-a394-d9a6a59c8ccf"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/burn?resource=ov_1&amp;size=regular&amp;thickness=thin&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T10:52:50.482+02:00"/>
+			<string key="event_id" value="1639"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/burn"/>
+			<date key="operation_end_time" value="2021-07-01T10:53:12.295+02:00"/>
+			<string key="identifier:id" value="a_21722"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_burn_workpiece_size" value="regular"/>
+				<string key="parameter_burn_workpiece_thickness" value="thin"/>
+			</list>
+			<string key="case" value="WF_101_20"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:56"/>
+			<string key="current_task" value="temper the workpiece with intensity: ov_1_temper_high for 40 seconds"/>
+			<string key="case:concept:name" value="WF_101_20"/>
+			<string key="SubProcessID" value="99c47ec4-61ba-4359-871d-806471fe6b4a"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/temper?resource=ov_1&amp;intensity=ov_1_temper_high&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T10:53:17.170+02:00"/>
+			<string key="event_id" value="1643"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/temper"/>
+			<date key="operation_end_time" value="2021-07-01T10:54:08.670+02:00"/>
+			<string key="identifier:id" value="a_21730"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_temper_intensity" value="ov_1_temper_high"/>
+			</list>
+			<string key="case" value="WF_101_20"/>
+		</event>
+		<event>
+			<string key="unsatisfied_condition_description" value="{&apos;0&apos;: {&apos;satisfied&apos;: False, &apos;url&apos;: &apos;http://127.0.0.1:5000/nfc/nfc_read_content?resource=nfc_1&amp;reader_name=MM_1_Turntable_NFC&apos;, &apos;required_key&apos;: &apos;business_key&apos;, &apos;required_value&apos;: &apos;WF_101&apos;}, &apos;1&apos;: {&apos;satisfied&apos;: True, &apos;url&apos;: &apos;http://127.0.0.1:5000/ov/status_of_light_barrier?resource=ov_1&amp;lb=ov_1_lb_5&apos;, &apos;required_key&apos;: &apos;interrupted&apos;, &apos;required_value&apos;: &apos;false&apos;}}"/>
+			<string key="planned_operation_time" value="0 days 00:00:22"/>
+			<string key="current_task" value=""/>
+			<string key="case:concept:name" value="WF_101_20"/>
+			<string key="SubProcessID" value="b576a303-ec1b-412a-9514-8817f50aeacb"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/wt/pick_up_and_transport?resource=wt_1&amp;start=ov_1_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T10:54:13.904+02:00"/>
+			<string key="event_id" value="1650"/>
+			<string key="org:resource" value="wt_1"/>
+			<string key="concept:name" value="/wt/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-01T10:54:40.154+02:00"/>
+			<string key="identifier:id" value="a_21815"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="ov_1_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_20"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="WF_101_31"/>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:52"/>
+			<string key="current_task" value="unloading a empty bucket from slot 0"/>
+			<string key="case:concept:name" value="WF_101_31"/>
+			<string key="SubProcessID" value="742df7ef-1bcf-4859-b754-25892c6ad259"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/unload?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T15:45:49.049+02:00"/>
+			<string key="event_id" value="2592"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/unload"/>
+			<date key="operation_end_time" value="2021-07-06T15:46:38.298+02:00"/>
+			<string key="identifier:id" value="a_33616"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_31"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:40"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the high_bay_warehouse to the dm_2_sink"/>
+			<string key="case:concept:name" value="WF_101_31"/>
+			<string key="SubProcessID" value="d87e7a67-0229-4712-ba70-fd6926867e43"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_2&amp;start=hbw_2_pos&amp;end=dm_2_sink_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T15:46:44.283+02:00"/>
+			<string key="event_id" value="2600"/>
+			<string key="org:resource" value="vgr_2"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-06T15:47:27.908+02:00"/>
+			<string key="identifier:id" value="a_33678"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hbw_2_pos"/>
+				<string key="parameter_end_position" value="dm_2_sink_pos"/>
+			</list>
+			<string key="case" value="WF_101_31"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:47"/>
+			<string key="current_task" value="storing a new empty bucket in slot 0"/>
+			<string key="case:concept:name" value="WF_101_31"/>
+			<string key="SubProcessID" value="0c166999-51d2-42b6-80bf-9f6ea3aec976"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/store_empty_bucket?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T15:47:32.189+02:00"/>
+			<string key="event_id" value="2602"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/store_empty_bucket"/>
+			<date key="operation_end_time" value="2021-07-06T15:48:12.845+02:00"/>
+			<string key="identifier:id" value="a_33748"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_31"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the dm_2_sink to the oven"/>
+			<string key="case:concept:name" value="WF_101_31"/>
+			<string key="SubProcessID" value="674b2be0-4bd0-4879-8aac-b1235f35ecf8"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=dm_2_sink_pos&amp;end=ov_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T15:49:08.830+02:00"/>
+			<string key="event_id" value="2608"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-06T15:50:01.517+02:00"/>
+			<string key="identifier:id" value="a_33937"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="dm_2_sink_pos"/>
+				<string key="parameter_end_position" value="ov_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_31"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:03:42"/>
+			<string key="current_task" value="burning the workpiece of size regular and thickness thinfor 10 seconds"/>
+			<string key="case:concept:name" value="WF_101_31"/>
+			<string key="SubProcessID" value="1f4285f0-4861-4b44-b46c-16247790c035"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/burn?resource=ov_1&amp;size=regular&amp;thickness=thin&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T15:50:08.908+02:00"/>
+			<string key="event_id" value="2612"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/burn"/>
+			<date key="operation_end_time" value="2021-07-06T15:50:30.548+02:00"/>
+			<string key="identifier:id" value="a_33965"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_burn_workpiece_size" value="regular"/>
+				<string key="parameter_burn_workpiece_thickness" value="thin"/>
+			</list>
+			<string key="case" value="WF_101_31"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:56"/>
+			<string key="current_task" value="temper the workpiece with intensity: ov_1_temper_high for 40 seconds"/>
+			<string key="case:concept:name" value="WF_101_31"/>
+			<string key="SubProcessID" value="5ce76170-592f-4fcd-a8a8-775f8af8ff2f"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/temper?resource=ov_1&amp;intensity=ov_1_temper_high&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T15:50:35.940+02:00"/>
+			<string key="event_id" value="2618"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/temper"/>
+			<date key="operation_end_time" value="2021-07-06T15:51:27.486+02:00"/>
+			<string key="identifier:id" value="a_33988"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_temper_intensity" value="ov_1_temper_high"/>
+			</list>
+			<string key="case" value="WF_101_31"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:22"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the oven to the milling_machine"/>
+			<string key="case:concept:name" value="WF_101_31"/>
+			<string key="SubProcessID" value="53fd277e-3a3d-43af-8afc-ade4d9c376a4"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/wt/pick_up_and_transport?resource=wt_1&amp;start=ov_1_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T15:51:37.595+02:00"/>
+			<string key="event_id" value="2623"/>
+			<string key="org:resource" value="wt_1"/>
+			<string key="concept:name" value="/wt/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-06T15:52:03.533+02:00"/>
+			<string key="identifier:id" value="a_34150"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="ov_1_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_31"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:05"/>
+			<string key="current_task" value="transporting the workpiece from the initial to the mill, milling it and transporting it to the initial afterwards"/>
+			<string key="case:concept:name" value="WF_101_31"/>
+			<string key="SubProcessID" value="1b2955da-275f-41d3-bdb1-eca9e929467f"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/mm/mill?resource=mm_1&amp;start=mm_1_initial_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T15:52:15.970+02:00"/>
+			<string key="event_id" value="2624"/>
+			<string key="org:resource" value="mm_1"/>
+			<string key="concept:name" value="/mm/mill"/>
+			<date key="operation_end_time" value="2021-07-06T15:52:21.097+02:00"/>
+			<string key="identifier:id" value="a_34256"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="mm_1_initial_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_31"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:14"/>
+			<string key="current_task" value="transporting the workpiece from the initial to the mill, deburring it and transporting it to the ejection afterwards"/>
+			<string key="case:concept:name" value="WF_101_31"/>
+			<string key="SubProcessID" value="60640ea1-8c82-4142-ad72-43c1e5aa6ba9"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/mm/deburr?resource=mm_1&amp;start=mm_1_initial_pos&amp;end=sm_1_lb_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T15:52:28.580+02:00"/>
+			<string key="event_id" value="2626"/>
+			<string key="org:resource" value="mm_1"/>
+			<string key="concept:name" value="/mm/deburr"/>
+			<date key="operation_end_time" value="2021-07-06T15:52:42.986+02:00"/>
+			<string key="identifier:id" value="a_34300"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="mm_1_initial_pos"/>
+				<string key="parameter_end_position" value="sm_1_lb_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_31"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:12"/>
+			<string key="current_task" value="sorting the workpiece which is located at initial without using the nfc reader into the predefined ejection location none"/>
+			<string key="case:concept:name" value="WF_101_31"/>
+			<string key="SubProcessID" value="1ee9c288-a904-4074-a5f9-3685477a398a"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/sm/sort?resource=sm_1&amp;start=sm_1_lb_1_pos&amp;use_nfc=false&amp;end=sm_1_automatic_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T15:52:46.580+02:00"/>
+			<string key="event_id" value="2628"/>
+			<string key="org:resource" value="sm_1"/>
+			<string key="concept:name" value="/sm/sort"/>
+			<date key="operation_end_time" value="2021-07-06T15:53:00.533+02:00"/>
+			<string key="identifier:id" value="a_34338"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_use_nfc" value="false"/>
+				<string key="parameter_start_position" value="sm_1_lb_1_pos"/>
+				<string key="parameter_end_position" value="sm_1_automatic_pos"/>
+				<float key="parameter_sorting_machine_ejection_position" value="3.0"/>
+			</list>
+			<string key="case" value="WF_101_31"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:41"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the sink_3 to the human_workstation"/>
+			<string key="case:concept:name" value="WF_101_31"/>
+			<string key="SubProcessID" value="9cbd062d-fc30-4725-a752-667a4e625022"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=sm_1_sink_3_pos&amp;end=hw_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T15:53:04.455+02:00"/>
+			<string key="event_id" value="2629"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-06T15:53:46.486+02:00"/>
+			<string key="identifier:id" value="a_34345"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="sm_1_sink_3_pos"/>
+				<string key="parameter_end_position" value="hw_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_31"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:01:42"/>
+			<string key="current_task" value="performing a human review of the workpiece"/>
+			<string key="case:concept:name" value="WF_101_31"/>
+			<string key="SubProcessID" value="2bec713e-1332-410b-b517-a01b839fe6a1"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hw/human_review?resource=hw_1&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T15:53:50.818+02:00"/>
+			<float key="human_workstation_green_button_pressed" value="0.0"/>
+			<string key="event_id" value="2630"/>
+			<string key="org:resource" value="hw_1"/>
+			<string key="concept:name" value="/hw/human_review"/>
+			<date key="operation_end_time" value="2021-07-06T15:53:52.486+02:00"/>
+			<string key="identifier:id" value="a_34355"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters"/>
+			<string key="case" value="WF_101_31"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="WF_101_26"/>
+		<event>
+			<string key="unsatisfied_condition_description" value="&lt;class &apos;ValueError&apos;&gt;:The High Bay Warehouse does not contain any workpiece with the given business_key WF_101"/>
+			<string key="planned_operation_time" value="0 days 00:00:52"/>
+			<string key="case:concept:name" value="WF_101_26"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/unload?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T19:11:58.477+02:00"/>
+			<string key="event_id" value="2164"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/unload"/>
+			<date key="operation_end_time" value="2021-07-01T19:11:58.524+02:00"/>
+			<string key="identifier:id" value="a_27814"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_26"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="WF_101_21"/>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:52"/>
+			<string key="current_task" value="unloading a empty bucket from slot 0"/>
+			<string key="case:concept:name" value="WF_101_21"/>
+			<string key="SubProcessID" value="20b3fceb-8909-4a1b-aa2a-7a46842dbda8"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/unload?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T11:13:44.170+02:00"/>
+			<string key="event_id" value="1730"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/unload"/>
+			<date key="operation_end_time" value="2021-07-01T11:14:26.295+02:00"/>
+			<string key="identifier:id" value="a_22705"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_21"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:40"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the high_bay_warehouse to the dm_2_sink"/>
+			<string key="case:concept:name" value="WF_101_21"/>
+			<string key="SubProcessID" value="904b3fac-daa1-4d5b-bf6d-74cf1ca7c6ac"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_2&amp;start=hbw_2_pos&amp;end=dm_2_sink_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T11:14:29.982+02:00"/>
+			<string key="event_id" value="1737"/>
+			<string key="org:resource" value="vgr_2"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-01T11:15:13.701+02:00"/>
+			<string key="identifier:id" value="a_22731"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hbw_2_pos"/>
+				<string key="parameter_end_position" value="dm_2_sink_pos"/>
+			</list>
+			<string key="case" value="WF_101_21"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:47"/>
+			<string key="current_task" value="storing a new empty bucket in slot 0"/>
+			<string key="case:concept:name" value="WF_101_21"/>
+			<string key="SubProcessID" value="0b0825ba-7a9f-4abf-8291-fd75b4f28336"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/store_empty_bucket?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T11:15:17.576+02:00"/>
+			<string key="event_id" value="1740"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/store_empty_bucket"/>
+			<date key="operation_end_time" value="2021-07-01T11:15:57.748+02:00"/>
+			<string key="identifier:id" value="a_22764"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_21"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the dm_2_sink to the oven"/>
+			<string key="case:concept:name" value="WF_101_21"/>
+			<string key="SubProcessID" value="11d45ffe-4b5e-4905-83c5-8cf7102e107b"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=dm_2_sink_pos&amp;end=ov_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T11:16:33.029+02:00"/>
+			<string key="event_id" value="1747"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-01T11:17:22.967+02:00"/>
+			<string key="identifier:id" value="a_22882"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="dm_2_sink_pos"/>
+				<string key="parameter_end_position" value="ov_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_21"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the dm_2_sink to the oven"/>
+			<string key="case:concept:name" value="WF_101_21"/>
+			<string key="SubProcessID" value="afaa88ee-f647-4c7a-9370-a63048212b66"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=dm_2_sink_pos&amp;end=ov_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T11:18:24.842+02:00"/>
+			<string key="event_id" value="1749"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-01T11:19:13.435+02:00"/>
+			<string key="identifier:id" value="a_23070"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="dm_2_sink_pos"/>
+				<string key="parameter_end_position" value="ov_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_21"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:03:42"/>
+			<string key="current_task" value="burning the workpiece of size regular and thickness thinfor 10 seconds"/>
+			<string key="case:concept:name" value="WF_101_21"/>
+			<string key="SubProcessID" value="82dd11f9-d488-4a8c-8bf6-8306f9f4d55b"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/burn?resource=ov_1&amp;size=regular&amp;thickness=thin&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T11:19:22.560+02:00"/>
+			<string key="event_id" value="1752"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/burn"/>
+			<date key="operation_end_time" value="2021-07-01T11:19:44.185+02:00"/>
+			<string key="identifier:id" value="a_23081"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_burn_workpiece_size" value="regular"/>
+				<string key="parameter_burn_workpiece_thickness" value="thin"/>
+			</list>
+			<string key="case" value="WF_101_21"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:56"/>
+			<string key="current_task" value="temper the workpiece with intensity: ov_1_temper_high for 40 seconds"/>
+			<string key="case:concept:name" value="WF_101_21"/>
+			<string key="SubProcessID" value="2aee3b24-076d-40ca-ad09-9deb2885d7a1"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/temper?resource=ov_1&amp;intensity=ov_1_temper_high&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T11:19:50.685+02:00"/>
+			<string key="event_id" value="1755"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/temper"/>
+			<date key="operation_end_time" value="2021-07-01T11:20:42.154+02:00"/>
+			<string key="identifier:id" value="a_23096"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_temper_intensity" value="ov_1_temper_high"/>
+			</list>
+			<string key="case" value="WF_101_21"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:22"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the oven to the milling_machine"/>
+			<string key="case:concept:name" value="WF_101_21"/>
+			<string key="SubProcessID" value="68721634-21fe-45fa-8a68-b356e1bffe14"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/wt/pick_up_and_transport?resource=wt_1&amp;start=ov_1_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T11:20:48.686+02:00"/>
+			<string key="event_id" value="1759"/>
+			<string key="org:resource" value="wt_1"/>
+			<string key="concept:name" value="/wt/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-01T11:21:16.810+02:00"/>
+			<string key="identifier:id" value="a_23197"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="ov_1_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_21"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:05"/>
+			<string key="current_task" value="transporting the workpiece from the initial to the mill, milling it and transporting it to the initial afterwards"/>
+			<string key="case:concept:name" value="WF_101_21"/>
+			<string key="SubProcessID" value="545a854b-b78a-4694-afc1-3fb89a1dc965"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/mm/mill?resource=mm_1&amp;start=mm_1_initial_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T11:21:25.154+02:00"/>
+			<string key="event_id" value="1760"/>
+			<string key="org:resource" value="mm_1"/>
+			<string key="concept:name" value="/mm/mill"/>
+			<date key="operation_end_time" value="2021-07-01T11:21:30.467+02:00"/>
+			<string key="identifier:id" value="a_23220"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="mm_1_initial_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_21"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:14"/>
+			<string key="current_task" value="transporting the workpiece from the initial to the mill, deburring it and transporting it to the ejection afterwards"/>
+			<string key="case:concept:name" value="WF_101_21"/>
+			<string key="SubProcessID" value="d3020cb1-0c36-440f-8d98-80470ad6029d"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/mm/deburr?resource=mm_1&amp;start=mm_1_initial_pos&amp;end=sm_1_lb_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T11:21:35.748+02:00"/>
+			<string key="event_id" value="1763"/>
+			<string key="org:resource" value="mm_1"/>
+			<string key="concept:name" value="/mm/deburr"/>
+			<date key="operation_end_time" value="2021-07-01T11:21:50.170+02:00"/>
+			<string key="identifier:id" value="a_23225"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="mm_1_initial_pos"/>
+				<string key="parameter_end_position" value="sm_1_lb_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_21"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:12"/>
+			<string key="current_task" value="sorting the workpiece which is located at initial without using the nfc reader into the predefined ejection location none"/>
+			<string key="case:concept:name" value="WF_101_21"/>
+			<string key="SubProcessID" value="d939c728-5c26-4ccf-91e7-5ed259f0e4c0"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/sm/sort?resource=sm_1&amp;start=sm_1_lb_1_pos&amp;use_nfc=false&amp;end=sm_1_automatic_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T11:21:52.607+02:00"/>
+			<string key="event_id" value="1765"/>
+			<string key="org:resource" value="sm_1"/>
+			<string key="concept:name" value="/sm/sort"/>
+			<date key="operation_end_time" value="2021-07-01T11:22:05.435+02:00"/>
+			<string key="identifier:id" value="a_23237"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_use_nfc" value="false"/>
+				<string key="parameter_start_position" value="sm_1_lb_1_pos"/>
+				<string key="parameter_end_position" value="sm_1_automatic_pos"/>
+				<float key="parameter_sorting_machine_ejection_position" value="2.0"/>
+			</list>
+			<string key="case" value="WF_101_21"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:01:42"/>
+			<string key="current_task" value=""/>
+			<string key="case:concept:name" value="WF_101_21"/>
+			<string key="SubProcessID" value="ddd0d9f7-c9bd-4afd-ae1b-c1c6d17de602"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hw/human_review?resource=hw_1&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T11:23:44.139+02:00"/>
+			<float key="human_workstation_green_button_pressed" value="0.0"/>
+			<string key="event_id" value="1772"/>
+			<string key="org:resource" value="hw_1"/>
+			<string key="concept:name" value="/hw/human_review"/>
+			<date key="operation_end_time" value="2021-07-01T11:23:44.685+02:00"/>
+			<string key="identifier:id" value="a_23437"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters"/>
+			<string key="case" value="WF_101_21"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="WF_101_28"/>
+		<event>
+			<string key="unsatisfied_condition_description" value="&lt;class &apos;ValueError&apos;&gt;:The High Bay Warehouse does not contain any workpiece with the given business_key WF_101"/>
+			<string key="planned_operation_time" value="0 days 00:00:52"/>
+			<string key="case:concept:name" value="WF_101_28"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/unload?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T19:50:31.874+02:00"/>
+			<string key="event_id" value="2322"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/unload"/>
+			<date key="operation_end_time" value="2021-07-01T19:50:31.906+02:00"/>
+			<string key="identifier:id" value="a_29921"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_28"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="WF_101_10"/>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:52"/>
+			<string key="current_task" value="unloading a empty bucket from slot 0"/>
+			<string key="case:concept:name" value="WF_101_10"/>
+			<string key="SubProcessID" value="1eb4c76f-8568-45a1-94ad-b08c5712093f"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/unload?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T16:48:43.462+02:00"/>
+			<string key="event_id" value="808"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/unload"/>
+			<date key="operation_end_time" value="2021-06-25T16:49:35.214+02:00"/>
+			<string key="identifier:id" value="a_10485"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_10"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:40"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the high_bay_warehouse to the dm_2_sink"/>
+			<string key="case:concept:name" value="WF_101_10"/>
+			<string key="SubProcessID" value="2371e8ae-e1e6-4126-a1cb-51aa7838761a"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_2&amp;start=hbw_2_pos&amp;end=dm_2_sink_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T16:49:40.383+02:00"/>
+			<string key="event_id" value="809"/>
+			<string key="org:resource" value="vgr_2"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T16:50:25.618+02:00"/>
+			<string key="identifier:id" value="a_10493"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hbw_2_pos"/>
+				<string key="parameter_end_position" value="dm_2_sink_pos"/>
+			</list>
+			<string key="case" value="WF_101_10"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:47"/>
+			<string key="current_task" value="storing a new empty bucket in slot 0"/>
+			<string key="case:concept:name" value="WF_101_10"/>
+			<string key="SubProcessID" value="04be2035-f585-4e09-b65b-22020db39f29"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/store_empty_bucket?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T16:50:31.462+02:00"/>
+			<string key="event_id" value="810"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/store_empty_bucket"/>
+			<date key="operation_end_time" value="2021-06-25T16:51:11.899+02:00"/>
+			<string key="identifier:id" value="a_10499"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_10"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the dm_2_sink to the oven"/>
+			<string key="case:concept:name" value="WF_101_10"/>
+			<string key="SubProcessID" value="6387f320-5c56-4d7d-a3c2-8a12ec781e60"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=dm_2_sink_pos&amp;end=ov_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T16:50:32.493+02:00"/>
+			<string key="event_id" value="811"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T16:51:14.977+02:00"/>
+			<string key="identifier:id" value="a_10507"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="dm_2_sink_pos"/>
+				<string key="parameter_end_position" value="ov_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_10"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:03:42"/>
+			<string key="current_task" value="burning the workpiece of size regular and thickness thinfor 10 seconds"/>
+			<string key="case:concept:name" value="WF_101_10"/>
+			<string key="SubProcessID" value="3d03397f-34cd-49b9-87e8-5f8ad272c52d"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/burn?resource=ov_1&amp;size=regular&amp;thickness=thin&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T16:51:23.118+02:00"/>
+			<string key="event_id" value="812"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/burn"/>
+			<date key="operation_end_time" value="2021-06-25T16:51:44.148+02:00"/>
+			<string key="identifier:id" value="a_10519"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_burn_workpiece_size" value="regular"/>
+				<string key="parameter_burn_workpiece_thickness" value="thin"/>
+			</list>
+			<string key="case" value="WF_101_10"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:56"/>
+			<string key="current_task" value="temper the workpiece with intensity: ov_1_temper_high for 40 seconds"/>
+			<string key="case:concept:name" value="WF_101_10"/>
+			<string key="SubProcessID" value="95311371-2408-46d8-8284-bc197fc1f192"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/temper?resource=ov_1&amp;intensity=ov_1_temper_high&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T16:51:53.338+02:00"/>
+			<string key="event_id" value="815"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/temper"/>
+			<date key="operation_end_time" value="2021-06-25T16:52:44.227+02:00"/>
+			<string key="identifier:id" value="a_10532"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_temper_intensity" value="ov_1_temper_high"/>
+			</list>
+			<string key="case" value="WF_101_10"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:22"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the oven to the milling_machine"/>
+			<string key="case:concept:name" value="WF_101_10"/>
+			<string key="SubProcessID" value="99aa420e-cad9-4a59-8c0a-4d1e050ef95a"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/wt/pick_up_and_transport?resource=wt_1&amp;start=ov_1_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T16:52:49.887+02:00"/>
+			<string key="event_id" value="818"/>
+			<string key="org:resource" value="wt_1"/>
+			<string key="concept:name" value="/wt/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T16:53:16.370+02:00"/>
+			<string key="identifier:id" value="a_10560"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="ov_1_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_10"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:05"/>
+			<string key="current_task" value="transporting the workpiece from the initial to the mill, milling it and transporting it to the initial afterwards"/>
+			<string key="case:concept:name" value="WF_101_10"/>
+			<string key="SubProcessID" value="3063d3a1-3421-4c4b-acd0-d9dcdd796cb1"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/mm/mill?resource=mm_1&amp;start=mm_1_initial_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T16:53:39.945+02:00"/>
+			<string key="event_id" value="819"/>
+			<string key="org:resource" value="mm_1"/>
+			<string key="concept:name" value="/mm/mill"/>
+			<date key="operation_end_time" value="2021-06-25T16:53:45.242+02:00"/>
+			<string key="identifier:id" value="a_10587"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="mm_1_initial_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_10"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:14"/>
+			<string key="current_task" value="transporting the workpiece from the initial to the mill, deburring it and transporting it to the ejection afterwards"/>
+			<string key="case:concept:name" value="WF_101_10"/>
+			<string key="SubProcessID" value="50c065f7-b4ad-4ec5-9857-a3bdec33c954"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/mm/deburr?resource=mm_1&amp;start=mm_1_initial_pos&amp;end=sm_1_lb_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T16:53:51.368+02:00"/>
+			<string key="event_id" value="822"/>
+			<string key="org:resource" value="mm_1"/>
+			<string key="concept:name" value="/mm/deburr"/>
+			<date key="operation_end_time" value="2021-06-25T16:54:05.571+02:00"/>
+			<string key="identifier:id" value="a_10592"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="mm_1_initial_pos"/>
+				<string key="parameter_end_position" value="sm_1_lb_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_10"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:12"/>
+			<string key="current_task" value="sorting the workpiece which is located at initial without using the nfc reader into the predefined ejection location none"/>
+			<string key="case:concept:name" value="WF_101_10"/>
+			<string key="SubProcessID" value="44d75799-7eb5-4493-9a5b-dc7b3a2fb2c4"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/sm/sort?resource=sm_1&amp;start=sm_1_lb_1_pos&amp;use_nfc=false&amp;end=sm_1_automatic_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T16:54:10.837+02:00"/>
+			<string key="event_id" value="824"/>
+			<string key="org:resource" value="sm_1"/>
+			<string key="concept:name" value="/sm/sort"/>
+			<date key="operation_end_time" value="2021-06-25T16:54:21.070+02:00"/>
+			<string key="identifier:id" value="a_10608"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_use_nfc" value="false"/>
+				<string key="parameter_start_position" value="sm_1_lb_1_pos"/>
+				<string key="parameter_end_position" value="sm_1_automatic_pos"/>
+				<float key="parameter_sorting_machine_ejection_position" value="2.0"/>
+			</list>
+			<string key="case" value="WF_101_10"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:39"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the sink_2 to the human_workstation"/>
+			<string key="case:concept:name" value="WF_101_10"/>
+			<string key="SubProcessID" value="4723dc6c-bae3-4728-833f-f3885435abc4"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=sm_1_sink_2_pos&amp;end=hw_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T16:54:26.493+02:00"/>
+			<string key="event_id" value="828"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T16:55:04.979+02:00"/>
+			<string key="identifier:id" value="a_10618"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="sm_1_sink_2_pos"/>
+				<string key="parameter_end_position" value="hw_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_10"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:01:42"/>
+			<string key="current_task" value="performing a human review of the workpiece"/>
+			<string key="case:concept:name" value="WF_101_10"/>
+			<string key="SubProcessID" value="65bb3963-08a1-4e05-b7bd-18c73b026a63"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hw/human_review?resource=hw_1&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T16:55:09.557+02:00"/>
+			<float key="human_workstation_green_button_pressed" value="1.0"/>
+			<string key="event_id" value="829"/>
+			<string key="org:resource" value="hw_1"/>
+			<string key="concept:name" value="/hw/human_review"/>
+			<date key="operation_end_time" value="2021-06-25T16:55:10.652+02:00"/>
+			<string key="identifier:id" value="a_10632"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters"/>
+			<string key="case" value="WF_101_10"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="unloading a empty bucket from slot 0"/>
+			<string key="case:concept:name" value="WF_101_10"/>
+			<string key="SubProcessID" value="f45036c9-b380-4a3e-9c47-9de7a9f68a2d"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/get_empty_bucket?resource=hbw_1&amp;slot=hbw_1_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T16:55:13.493+02:00"/>
+			<string key="event_id" value="831"/>
+			<string key="org:resource" value="hbw_1"/>
+			<string key="concept:name" value="/hbw/get_empty_bucket"/>
+			<date key="operation_end_time" value="2021-06-25T16:56:01.539+02:00"/>
+			<string key="identifier:id" value="a_10643"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_1_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_10"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:24"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the human_workstation to the waiting_platform"/>
+			<string key="case:concept:name" value="WF_101_10"/>
+			<string key="SubProcessID" value="e078daae-a737-452f-ae6f-a4f4dc155b98"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=hw_1_pos&amp;end=hbw_1_waiting_platform_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T16:56:47.337+02:00"/>
+			<string key="event_id" value="837"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T16:57:08.257+02:00"/>
+			<string key="identifier:id" value="a_10743"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hw_1_pos"/>
+				<string key="parameter_end_position" value="hbw_1_waiting_platform_pos"/>
+			</list>
+			<string key="case" value="WF_101_10"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:15"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the waiting_platform to the high_bay_warehouse"/>
+			<string key="case:concept:name" value="WF_101_10"/>
+			<string key="SubProcessID" value="4098732c-a858-4efb-a466-1f4282221d09"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=hbw_1_waiting_platform_pos&amp;end=hbw_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T16:57:24.586+02:00"/>
+			<string key="event_id" value="840"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T16:57:43.850+02:00"/>
+			<string key="identifier:id" value="a_10763"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hbw_1_waiting_platform_pos"/>
+				<string key="parameter_end_position" value="hbw_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_10"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="storing a new full bucket in slot 0"/>
+			<string key="case:concept:name" value="WF_101_10"/>
+			<string key="SubProcessID" value="dc105fe9-cfc3-4ba5-ab0b-9c9b9751ee7a"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/store?resource=hbw_1&amp;slot=hbw_1_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T16:57:49.243+02:00"/>
+			<string key="event_id" value="846"/>
+			<string key="org:resource" value="hbw_1"/>
+			<string key="concept:name" value="/hbw/store"/>
+			<date key="operation_end_time" value="2021-06-25T16:58:29.104+02:00"/>
+			<string key="identifier:id" value="a_10780"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_1_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_10"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="WF_101_20"/>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:52"/>
+			<string key="current_task" value="unloading a empty bucket from slot 0"/>
+			<string key="case:concept:name" value="WF_101_20"/>
+			<string key="SubProcessID" value="2231e9fe-7013-4afc-87d0-31db971df4d9"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/unload?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T10:45:44.295+02:00"/>
+			<string key="event_id" value="1605"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/unload"/>
+			<date key="operation_end_time" value="2021-07-01T10:46:30.373+02:00"/>
+			<string key="identifier:id" value="a_21096"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_20"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:40"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the high_bay_warehouse to the dm_2_sink"/>
+			<string key="case:concept:name" value="WF_101_20"/>
+			<string key="SubProcessID" value="ac41d40a-4875-443b-b366-37e437976409"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_2&amp;start=hbw_2_pos&amp;end=dm_2_sink_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T10:47:32.873+02:00"/>
+			<string key="event_id" value="1615"/>
+			<string key="org:resource" value="vgr_2"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-01T10:48:16.889+02:00"/>
+			<string key="identifier:id" value="a_21312"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hbw_2_pos"/>
+				<string key="parameter_end_position" value="dm_2_sink_pos"/>
+			</list>
+			<string key="case" value="WF_101_20"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:47"/>
+			<string key="current_task" value="storing a new empty bucket in slot 0"/>
+			<string key="case:concept:name" value="WF_101_20"/>
+			<string key="SubProcessID" value="1ad0901e-0633-4f13-a7e2-d0858a99bfbe"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/store_empty_bucket?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T10:48:22.326+02:00"/>
+			<string key="event_id" value="1620"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/store_empty_bucket"/>
+			<date key="operation_end_time" value="2021-07-01T10:49:02.014+02:00"/>
+			<string key="identifier:id" value="a_21337"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_20"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the dm_2_sink to the oven"/>
+			<string key="case:concept:name" value="WF_101_20"/>
+			<string key="SubProcessID" value="03aba70d-832c-4067-8821-0b7d3208e798"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=dm_2_sink_pos&amp;end=ov_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T10:51:43.732+02:00"/>
+			<string key="event_id" value="1636"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-01T10:52:33.404+02:00"/>
+			<string key="identifier:id" value="a_21608"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="dm_2_sink_pos"/>
+				<string key="parameter_end_position" value="ov_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_20"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:03:42"/>
+			<string key="current_task" value="burning the workpiece of size regular and thickness thinfor 10 seconds"/>
+			<string key="case:concept:name" value="WF_101_20"/>
+			<string key="SubProcessID" value="9fa9cb2d-5e8f-4750-a394-d9a6a59c8ccf"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/burn?resource=ov_1&amp;size=regular&amp;thickness=thin&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T10:52:50.482+02:00"/>
+			<string key="event_id" value="1639"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/burn"/>
+			<date key="operation_end_time" value="2021-07-01T10:53:12.295+02:00"/>
+			<string key="identifier:id" value="a_21722"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_burn_workpiece_size" value="regular"/>
+				<string key="parameter_burn_workpiece_thickness" value="thin"/>
+			</list>
+			<string key="case" value="WF_101_20"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:56"/>
+			<string key="current_task" value="temper the workpiece with intensity: ov_1_temper_high for 40 seconds"/>
+			<string key="case:concept:name" value="WF_101_20"/>
+			<string key="SubProcessID" value="99c47ec4-61ba-4359-871d-806471fe6b4a"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/temper?resource=ov_1&amp;intensity=ov_1_temper_high&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T10:53:17.170+02:00"/>
+			<string key="event_id" value="1643"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/temper"/>
+			<date key="operation_end_time" value="2021-07-01T10:54:08.670+02:00"/>
+			<string key="identifier:id" value="a_21730"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_temper_intensity" value="ov_1_temper_high"/>
+			</list>
+			<string key="case" value="WF_101_20"/>
+		</event>
+		<event>
+			<string key="unsatisfied_condition_description" value="{&apos;0&apos;: {&apos;satisfied&apos;: False, &apos;url&apos;: &apos;http://127.0.0.1:5000/nfc/nfc_read_content?resource=nfc_1&amp;reader_name=MM_1_Turntable_NFC&apos;, &apos;required_key&apos;: &apos;business_key&apos;, &apos;required_value&apos;: &apos;WF_101&apos;}, &apos;1&apos;: {&apos;satisfied&apos;: True, &apos;url&apos;: &apos;http://127.0.0.1:5000/ov/status_of_light_barrier?resource=ov_1&amp;lb=ov_1_lb_5&apos;, &apos;required_key&apos;: &apos;interrupted&apos;, &apos;required_value&apos;: &apos;false&apos;}}"/>
+			<string key="planned_operation_time" value="0 days 00:00:22"/>
+			<string key="current_task" value=""/>
+			<string key="case:concept:name" value="WF_101_20"/>
+			<string key="SubProcessID" value="b576a303-ec1b-412a-9514-8817f50aeacb"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/wt/pick_up_and_transport?resource=wt_1&amp;start=ov_1_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T10:54:13.904+02:00"/>
+			<string key="event_id" value="1650"/>
+			<string key="org:resource" value="wt_1"/>
+			<string key="concept:name" value="/wt/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-01T10:54:40.154+02:00"/>
+			<string key="identifier:id" value="a_21815"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="ov_1_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_20"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="WF_101_3"/>
+		<event>
+			<string key="unsatisfied_condition_description" value="&lt;class &apos;ValueError&apos;&gt;:The High Bay Warehouse does not contain any workpiece with the given business_key WF_101"/>
+			<string key="planned_operation_time" value="0 days 00:00:52"/>
+			<string key="case:concept:name" value="WF_101_3"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/unload?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T10:34:46.641+02:00"/>
+			<string key="event_id" value="330"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/unload"/>
+			<date key="operation_end_time" value="2021-06-25T10:34:46.641+02:00"/>
+			<string key="identifier:id" value="a_4365"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_3"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="WF_101_12"/>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:52"/>
+			<string key="current_task" value="unloading a empty bucket from slot 0"/>
+			<string key="case:concept:name" value="WF_101_12"/>
+			<string key="SubProcessID" value="92ac4e59-b46f-4050-accf-3c128b39836f"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/unload?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T17:27:50.601+02:00"/>
+			<string key="event_id" value="988"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/unload"/>
+			<date key="operation_end_time" value="2021-06-25T17:28:35.258+02:00"/>
+			<string key="identifier:id" value="a_12709"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_12"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:40"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the high_bay_warehouse to the dm_2_sink"/>
+			<string key="case:concept:name" value="WF_101_12"/>
+			<string key="SubProcessID" value="b493d0b7-2c70-4d80-b23f-e8197fbbf5df"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_2&amp;start=hbw_2_pos&amp;end=dm_2_sink_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T17:28:45.214+02:00"/>
+			<string key="event_id" value="991"/>
+			<string key="org:resource" value="vgr_2"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T17:29:29.291+02:00"/>
+			<string key="identifier:id" value="a_12739"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hbw_2_pos"/>
+				<string key="parameter_end_position" value="dm_2_sink_pos"/>
+			</list>
+			<string key="case" value="WF_101_12"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:47"/>
+			<string key="current_task" value="storing a new empty bucket in slot 0"/>
+			<string key="case:concept:name" value="WF_101_12"/>
+			<string key="SubProcessID" value="b8366524-a36e-4589-9a28-68cd7ef36840"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/store_empty_bucket?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T17:29:37.569+02:00"/>
+			<string key="event_id" value="995"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/store_empty_bucket"/>
+			<date key="operation_end_time" value="2021-06-25T17:30:17.727+02:00"/>
+			<string key="identifier:id" value="a_12761"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_12"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="WF_101_7"/>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:52"/>
+			<string key="current_task" value="unloading a empty bucket from slot 0"/>
+			<string key="case:concept:name" value="WF_101_7"/>
+			<string key="SubProcessID" value="fa3d5e0d-8c53-4478-9470-0508e16cd255"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/unload?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:12:51.761+02:00"/>
+			<string key="event_id" value="599"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/unload"/>
+			<date key="operation_end_time" value="2021-06-25T15:13:35.354+02:00"/>
+			<string key="identifier:id" value="a_8057"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_7"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:40"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the high_bay_warehouse to the dm_2_sink"/>
+			<string key="case:concept:name" value="WF_101_7"/>
+			<string key="SubProcessID" value="9e12de20-8750-4dc5-a7d3-4323daa785db"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_2&amp;start=hbw_2_pos&amp;end=dm_2_sink_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:13:38.309+02:00"/>
+			<string key="event_id" value="602"/>
+			<string key="org:resource" value="vgr_2"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T15:14:23.245+02:00"/>
+			<string key="identifier:id" value="a_8071"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hbw_2_pos"/>
+				<string key="parameter_end_position" value="dm_2_sink_pos"/>
+			</list>
+			<string key="case" value="WF_101_7"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:47"/>
+			<string key="current_task" value="storing a new empty bucket in slot 0"/>
+			<string key="case:concept:name" value="WF_101_7"/>
+			<string key="SubProcessID" value="6cde3d3e-8b11-4f73-bba1-f8a5a2ddd2d2"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/store_empty_bucket?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:14:27.933+02:00"/>
+			<string key="event_id" value="605"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/store_empty_bucket"/>
+			<date key="operation_end_time" value="2021-06-25T15:15:08.026+02:00"/>
+			<string key="identifier:id" value="a_8093"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_7"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the dm_2_sink to the oven"/>
+			<string key="case:concept:name" value="WF_101_7"/>
+			<string key="SubProcessID" value="10f850c2-a647-4e2f-96d1-fce8ecfbb7c2"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=dm_2_sink_pos&amp;end=ov_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:14:37.260+02:00"/>
+			<string key="event_id" value="606"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T15:15:23.137+02:00"/>
+			<string key="identifier:id" value="a_8101"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="dm_2_sink_pos"/>
+				<string key="parameter_end_position" value="ov_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_7"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:03:42"/>
+			<string key="current_task" value="burning the workpiece of size regular and thickness thinfor 10 seconds"/>
+			<string key="case:concept:name" value="WF_101_7"/>
+			<string key="SubProcessID" value="01df64bd-5d62-4d1c-aa30-9560bcbdef58"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/burn?resource=ov_1&amp;size=regular&amp;thickness=thin&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:15:32.745+02:00"/>
+			<string key="event_id" value="608"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/burn"/>
+			<date key="operation_end_time" value="2021-06-25T15:15:53.810+02:00"/>
+			<string key="identifier:id" value="a_8116"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_burn_workpiece_size" value="regular"/>
+				<string key="parameter_burn_workpiece_thickness" value="thin"/>
+			</list>
+			<string key="case" value="WF_101_7"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:56"/>
+			<string key="current_task" value="temper the workpiece with intensity: ov_1_temper_high for 40 seconds"/>
+			<string key="case:concept:name" value="WF_101_7"/>
+			<string key="SubProcessID" value="80cb3829-a085-4e5d-94e9-94605916a40a"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/temper?resource=ov_1&amp;intensity=ov_1_temper_high&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:15:59.717+02:00"/>
+			<string key="event_id" value="611"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/temper"/>
+			<date key="operation_end_time" value="2021-06-25T15:16:50.653+02:00"/>
+			<string key="identifier:id" value="a_8126"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_temper_intensity" value="ov_1_temper_high"/>
+			</list>
+			<string key="case" value="WF_101_7"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:22"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the oven to the milling_machine"/>
+			<string key="case:concept:name" value="WF_101_7"/>
+			<string key="SubProcessID" value="b4e92ad4-db2e-42e0-aa38-b077c4deac07"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/wt/pick_up_and_transport?resource=wt_1&amp;start=ov_1_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:16:59.073+02:00"/>
+			<string key="event_id" value="615"/>
+			<string key="org:resource" value="wt_1"/>
+			<string key="concept:name" value="/wt/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T15:17:25.386+02:00"/>
+			<string key="identifier:id" value="a_8156"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="ov_1_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_7"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:05"/>
+			<string key="current_task" value="transporting the workpiece from the initial to the mill, milling it and transporting it to the initial afterwards"/>
+			<string key="case:concept:name" value="WF_101_7"/>
+			<string key="SubProcessID" value="caa2e985-9850-45a4-87b4-6785a53128b2"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/mm/mill?resource=mm_1&amp;start=mm_1_initial_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:17:41.153+02:00"/>
+			<string key="event_id" value="616"/>
+			<string key="org:resource" value="mm_1"/>
+			<string key="concept:name" value="/mm/mill"/>
+			<date key="operation_end_time" value="2021-06-25T15:17:46.276+02:00"/>
+			<string key="identifier:id" value="a_8182"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="mm_1_initial_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_7"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:14"/>
+			<string key="current_task" value="transporting the workpiece from the initial to the mill, deburring it and transporting it to the ejection afterwards"/>
+			<string key="case:concept:name" value="WF_101_7"/>
+			<string key="SubProcessID" value="543a1097-250f-41e7-b6e4-93fd856270ee"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/mm/deburr?resource=mm_1&amp;start=mm_1_initial_pos&amp;end=sm_1_lb_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:17:51.996+02:00"/>
+			<string key="event_id" value="618"/>
+			<string key="org:resource" value="mm_1"/>
+			<string key="concept:name" value="/mm/deburr"/>
+			<date key="operation_end_time" value="2021-06-25T15:18:06.480+02:00"/>
+			<string key="identifier:id" value="a_8186"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="mm_1_initial_pos"/>
+				<string key="parameter_end_position" value="sm_1_lb_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_7"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:12"/>
+			<string key="current_task" value="sorting the workpiece which is located at initial without using the nfc reader into the predefined ejection location none"/>
+			<string key="case:concept:name" value="WF_101_7"/>
+			<string key="SubProcessID" value="89779a51-334a-4b4e-9959-ee7724aa78ba"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/sm/sort?resource=sm_1&amp;start=sm_1_lb_1_pos&amp;use_nfc=false&amp;end=sm_1_automatic_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:18:15.651+02:00"/>
+			<string key="event_id" value="622"/>
+			<string key="org:resource" value="sm_1"/>
+			<string key="concept:name" value="/sm/sort"/>
+			<date key="operation_end_time" value="2021-06-25T15:18:26.277+02:00"/>
+			<string key="identifier:id" value="a_8210"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_use_nfc" value="false"/>
+				<string key="parameter_start_position" value="sm_1_lb_1_pos"/>
+				<string key="parameter_end_position" value="sm_1_automatic_pos"/>
+				<float key="parameter_sorting_machine_ejection_position" value="2.0"/>
+			</list>
+			<string key="case" value="WF_101_7"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:39"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the sink_2 to the human_workstation"/>
+			<string key="case:concept:name" value="WF_101_7"/>
+			<string key="SubProcessID" value="5abd4a35-8280-489e-9c75-0920ee721cc4"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=sm_1_sink_2_pos&amp;end=hw_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:18:42.980+02:00"/>
+			<string key="event_id" value="628"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T15:19:23.886+02:00"/>
+			<string key="identifier:id" value="a_8232"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="sm_1_sink_2_pos"/>
+				<string key="parameter_end_position" value="hw_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_7"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:01:42"/>
+			<string key="current_task" value="performing a human review of the workpiece"/>
+			<string key="case:concept:name" value="WF_101_7"/>
+			<string key="SubProcessID" value="9286c60a-fe9f-4733-b1ce-e39eae8f0c22"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hw/human_review?resource=hw_1&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:19:35.409+02:00"/>
+			<float key="human_workstation_green_button_pressed" value="1.0"/>
+			<string key="event_id" value="631"/>
+			<string key="org:resource" value="hw_1"/>
+			<string key="concept:name" value="/hw/human_review"/>
+			<date key="operation_end_time" value="2021-06-25T15:19:47.589+02:00"/>
+			<string key="identifier:id" value="a_8263"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters"/>
+			<string key="case" value="WF_101_7"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="unloading a empty bucket from slot 0"/>
+			<string key="case:concept:name" value="WF_101_7"/>
+			<string key="SubProcessID" value="370659dc-7eb1-407d-8a4a-644f226994fe"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/get_empty_bucket?resource=hbw_1&amp;slot=hbw_1_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:19:51.448+02:00"/>
+			<string key="event_id" value="634"/>
+			<string key="org:resource" value="hbw_1"/>
+			<string key="concept:name" value="/hbw/get_empty_bucket"/>
+			<date key="operation_end_time" value="2021-06-25T15:20:31.823+02:00"/>
+			<string key="identifier:id" value="a_8277"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_1_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_7"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:24"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the human_workstation to the waiting_platform"/>
+			<string key="case:concept:name" value="WF_101_7"/>
+			<string key="SubProcessID" value="7adb0a97-0ee2-4eba-adc4-b6ff6079f2a8"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=hw_1_pos&amp;end=hbw_1_waiting_platform_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:20:36.590+02:00"/>
+			<string key="event_id" value="636"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T15:20:57.635+02:00"/>
+			<string key="identifier:id" value="a_8298"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hw_1_pos"/>
+				<string key="parameter_end_position" value="hbw_1_waiting_platform_pos"/>
+			</list>
+			<string key="case" value="WF_101_7"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:15"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the waiting_platform to the high_bay_warehouse"/>
+			<string key="case:concept:name" value="WF_101_7"/>
+			<string key="SubProcessID" value="e59f81d6-4322-4bce-81d5-07d788c905ce"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=hbw_1_waiting_platform_pos&amp;end=hbw_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:21:58.886+02:00"/>
+			<string key="event_id" value="643"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T15:22:12.121+02:00"/>
+			<string key="identifier:id" value="a_8355"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hbw_1_waiting_platform_pos"/>
+				<string key="parameter_end_position" value="hbw_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_7"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="storing a new full bucket in slot 0"/>
+			<string key="case:concept:name" value="WF_101_7"/>
+			<string key="SubProcessID" value="e4d0b68b-3e5f-44c2-bad7-b718cb22c28c"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/store?resource=hbw_1&amp;slot=hbw_1_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:22:15.776+02:00"/>
+			<string key="event_id" value="648"/>
+			<string key="org:resource" value="hbw_1"/>
+			<string key="concept:name" value="/hbw/store"/>
+			<date key="operation_end_time" value="2021-06-25T15:22:56.715+02:00"/>
+			<string key="identifier:id" value="a_8362"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_1_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_7"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="WF_101_9"/>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:52"/>
+			<string key="current_task" value="unloading a empty bucket from slot 0"/>
+			<string key="case:concept:name" value="WF_101_9"/>
+			<string key="SubProcessID" value="ca3ba21a-e5cc-4b97-a364-80e00b95ad76"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/unload?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:45:25.698+02:00"/>
+			<string key="event_id" value="762"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/unload"/>
+			<date key="operation_end_time" value="2021-06-25T15:46:14.074+02:00"/>
+			<string key="identifier:id" value="a_9950"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_9"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:40"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the high_bay_warehouse to the dm_2_sink"/>
+			<string key="case:concept:name" value="WF_101_9"/>
+			<string key="SubProcessID" value="bfd40395-618b-46ce-833c-549503c2ee43"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_2&amp;start=hbw_2_pos&amp;end=dm_2_sink_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:46:19.449+02:00"/>
+			<string key="event_id" value="765"/>
+			<string key="org:resource" value="vgr_2"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T15:47:04.275+02:00"/>
+			<string key="identifier:id" value="a_9964"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hbw_2_pos"/>
+				<string key="parameter_end_position" value="dm_2_sink_pos"/>
+			</list>
+			<string key="case" value="WF_101_9"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:47"/>
+			<string key="current_task" value="storing a new empty bucket in slot 0"/>
+			<string key="case:concept:name" value="WF_101_9"/>
+			<string key="SubProcessID" value="83b50e71-71c3-46d4-9e21-d9ff22430d85"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/store_empty_bucket?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:47:11.900+02:00"/>
+			<string key="event_id" value="768"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/store_empty_bucket"/>
+			<date key="operation_end_time" value="2021-06-25T15:47:52.011+02:00"/>
+			<string key="identifier:id" value="a_9988"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_9"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the dm_2_sink to the oven"/>
+			<string key="case:concept:name" value="WF_101_9"/>
+			<string key="SubProcessID" value="f43fdfe2-8a82-43b1-beea-b37b24a002d2"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=dm_2_sink_pos&amp;end=ov_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:47:34.963+02:00"/>
+			<string key="event_id" value="770"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T15:48:25.479+02:00"/>
+			<string key="identifier:id" value="a_9999"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="dm_2_sink_pos"/>
+				<string key="parameter_end_position" value="ov_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_9"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:03:42"/>
+			<string key="current_task" value="burning the workpiece of size regular and thickness thinfor 10 seconds"/>
+			<string key="case:concept:name" value="WF_101_9"/>
+			<string key="SubProcessID" value="adfe9ea2-4e0c-4b43-8f26-cb68911334d8"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/burn?resource=ov_1&amp;size=regular&amp;thickness=thin&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:48:36.916+02:00"/>
+			<string key="event_id" value="772"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/burn"/>
+			<date key="operation_end_time" value="2021-06-25T15:48:57.949+02:00"/>
+			<string key="identifier:id" value="a_10016"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_burn_workpiece_size" value="regular"/>
+				<string key="parameter_burn_workpiece_thickness" value="thin"/>
+			</list>
+			<string key="case" value="WF_101_9"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:56"/>
+			<string key="current_task" value="temper the workpiece with intensity: ov_1_temper_high for 40 seconds"/>
+			<string key="case:concept:name" value="WF_101_9"/>
+			<string key="SubProcessID" value="001618a4-1be3-406c-bd83-ebe5cff5e4f7"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/temper?resource=ov_1&amp;intensity=ov_1_temper_high&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:49:04.073+02:00"/>
+			<string key="event_id" value="775"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/temper"/>
+			<date key="operation_end_time" value="2021-06-25T15:49:55.088+02:00"/>
+			<string key="identifier:id" value="a_10028"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_temper_intensity" value="ov_1_temper_high"/>
+			</list>
+			<string key="case" value="WF_101_9"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:22"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the oven to the milling_machine"/>
+			<string key="case:concept:name" value="WF_101_9"/>
+			<string key="SubProcessID" value="ff1e2ef3-ecae-426b-8d98-73f3eb828602"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/wt/pick_up_and_transport?resource=wt_1&amp;start=ov_1_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:50:01.278+02:00"/>
+			<string key="event_id" value="778"/>
+			<string key="org:resource" value="wt_1"/>
+			<string key="concept:name" value="/wt/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T15:50:27.932+02:00"/>
+			<string key="identifier:id" value="a_10058"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="ov_1_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_9"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:05"/>
+			<string key="current_task" value="transporting the workpiece from the initial to the mill, milling it and transporting it to the initial afterwards"/>
+			<string key="case:concept:name" value="WF_101_9"/>
+			<string key="SubProcessID" value="4b235f2a-413a-4e2a-966d-be9cd0eaf28a"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/mm/mill?resource=mm_1&amp;start=mm_1_initial_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:50:37.200+02:00"/>
+			<string key="event_id" value="779"/>
+			<string key="org:resource" value="mm_1"/>
+			<string key="concept:name" value="/mm/mill"/>
+			<date key="operation_end_time" value="2021-06-25T15:50:42.369+02:00"/>
+			<string key="identifier:id" value="a_10068"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="mm_1_initial_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_9"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:14"/>
+			<string key="current_task" value="transporting the workpiece from the initial to the mill, deburring it and transporting it to the ejection afterwards"/>
+			<string key="case:concept:name" value="WF_101_9"/>
+			<string key="SubProcessID" value="b9940a6b-24d6-432e-8c85-56773bc28676"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/mm/deburr?resource=mm_1&amp;start=mm_1_initial_pos&amp;end=sm_1_lb_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:50:48.290+02:00"/>
+			<string key="event_id" value="781"/>
+			<string key="org:resource" value="mm_1"/>
+			<string key="concept:name" value="/mm/deburr"/>
+			<date key="operation_end_time" value="2021-06-25T15:51:02.385+02:00"/>
+			<string key="identifier:id" value="a_10072"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="mm_1_initial_pos"/>
+				<string key="parameter_end_position" value="sm_1_lb_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_9"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:12"/>
+			<string key="current_task" value="sorting the workpiece which is located at initial without using the nfc reader into the predefined ejection location none"/>
+			<string key="case:concept:name" value="WF_101_9"/>
+			<string key="SubProcessID" value="0f49377c-f3e4-4211-8c86-efd90e2390ad"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/sm/sort?resource=sm_1&amp;start=sm_1_lb_1_pos&amp;use_nfc=false&amp;end=sm_1_automatic_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:51:05.369+02:00"/>
+			<string key="event_id" value="783"/>
+			<string key="org:resource" value="sm_1"/>
+			<string key="concept:name" value="/sm/sort"/>
+			<date key="operation_end_time" value="2021-06-25T15:51:15.635+02:00"/>
+			<string key="identifier:id" value="a_10080"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_use_nfc" value="false"/>
+				<string key="parameter_start_position" value="sm_1_lb_1_pos"/>
+				<string key="parameter_end_position" value="sm_1_automatic_pos"/>
+				<float key="parameter_sorting_machine_ejection_position" value="2.0"/>
+			</list>
+			<string key="case" value="WF_101_9"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:39"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the sink_2 to the human_workstation"/>
+			<string key="case:concept:name" value="WF_101_9"/>
+			<string key="SubProcessID" value="f00ed4de-9e94-4f41-8575-e48f0472ec33"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=sm_1_sink_2_pos&amp;end=hw_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:51:18.838+02:00"/>
+			<string key="event_id" value="785"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T15:51:56.572+02:00"/>
+			<string key="identifier:id" value="a_10089"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="sm_1_sink_2_pos"/>
+				<string key="parameter_end_position" value="hw_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_9"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:01:42"/>
+			<string key="current_task" value="performing a human review of the workpiece"/>
+			<string key="case:concept:name" value="WF_101_9"/>
+			<string key="SubProcessID" value="d442b51a-2829-4e0f-b416-b37fd16cae97"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hw/human_review?resource=hw_1&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:52:01.168+02:00"/>
+			<float key="human_workstation_green_button_pressed" value="1.0"/>
+			<string key="event_id" value="786"/>
+			<string key="org:resource" value="hw_1"/>
+			<string key="concept:name" value="/hw/human_review"/>
+			<date key="operation_end_time" value="2021-06-25T15:52:08.635+02:00"/>
+			<string key="identifier:id" value="a_10094"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters"/>
+			<string key="case" value="WF_101_9"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="unloading a empty bucket from slot 0"/>
+			<string key="case:concept:name" value="WF_101_9"/>
+			<string key="SubProcessID" value="e7facd07-6a66-446d-b1a9-ffab97f1fd26"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/get_empty_bucket?resource=hbw_1&amp;slot=hbw_1_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:52:11.448+02:00"/>
+			<string key="event_id" value="788"/>
+			<string key="org:resource" value="hbw_1"/>
+			<string key="concept:name" value="/hbw/get_empty_bucket"/>
+			<date key="operation_end_time" value="2021-06-25T15:52:50.853+02:00"/>
+			<string key="identifier:id" value="a_10115"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_1_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_9"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:24"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the human_workstation to the waiting_platform"/>
+			<string key="case:concept:name" value="WF_101_9"/>
+			<string key="SubProcessID" value="65290a9d-9534-4945-9aa5-6e34c762708e"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=hw_1_pos&amp;end=hbw_1_waiting_platform_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:52:40.994+02:00"/>
+			<string key="event_id" value="789"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T15:53:00.838+02:00"/>
+			<string key="identifier:id" value="a_10168"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hw_1_pos"/>
+				<string key="parameter_end_position" value="hbw_1_waiting_platform_pos"/>
+			</list>
+			<string key="case" value="WF_101_9"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:15"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the waiting_platform to the high_bay_warehouse"/>
+			<string key="case:concept:name" value="WF_101_9"/>
+			<string key="SubProcessID" value="ce38716e-3da6-468e-8e54-6adb5d4f89ef"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=hbw_1_waiting_platform_pos&amp;end=hbw_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:53:17.494+02:00"/>
+			<string key="event_id" value="790"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T15:53:37.228+02:00"/>
+			<string key="identifier:id" value="a_10179"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hbw_1_waiting_platform_pos"/>
+				<string key="parameter_end_position" value="hbw_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_9"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="storing a new full bucket in slot 0"/>
+			<string key="case:concept:name" value="WF_101_9"/>
+			<string key="SubProcessID" value="8f5b7917-624d-458b-8f91-5a2a2a721ab6"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/store?resource=hbw_1&amp;slot=hbw_1_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T15:53:40.791+02:00"/>
+			<string key="event_id" value="791"/>
+			<string key="org:resource" value="hbw_1"/>
+			<string key="concept:name" value="/hbw/store"/>
+			<date key="operation_end_time" value="2021-06-25T15:54:19.736+02:00"/>
+			<string key="identifier:id" value="a_10183"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_1_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_9"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="WF_101_17"/>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:52"/>
+			<string key="current_task" value="unloading a empty bucket from slot 0"/>
+			<string key="case:concept:name" value="WF_101_17"/>
+			<string key="SubProcessID" value="e6231e88-8467-423e-8c7a-f326ba6642f9"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/unload?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:38:59.715+02:00"/>
+			<string key="event_id" value="1356"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/unload"/>
+			<date key="operation_end_time" value="2021-06-30T16:39:44.356+02:00"/>
+			<string key="identifier:id" value="a_17588"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_17"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:40"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the high_bay_warehouse to the dm_2_sink"/>
+			<string key="case:concept:name" value="WF_101_17"/>
+			<string key="SubProcessID" value="a21500d0-6352-4eed-b6cf-6642b67841e5"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_2&amp;start=hbw_2_pos&amp;end=dm_2_sink_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:39:48.731+02:00"/>
+			<string key="event_id" value="1361"/>
+			<string key="org:resource" value="vgr_2"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-30T16:40:31.951+02:00"/>
+			<string key="identifier:id" value="a_17625"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hbw_2_pos"/>
+				<string key="parameter_end_position" value="dm_2_sink_pos"/>
+			</list>
+			<string key="case" value="WF_101_17"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:47"/>
+			<string key="current_task" value="storing a new empty bucket in slot 0"/>
+			<string key="case:concept:name" value="WF_101_17"/>
+			<string key="SubProcessID" value="19945bde-1ae6-4fd2-8e38-946471eba622"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/store_empty_bucket?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:40:39.481+02:00"/>
+			<string key="event_id" value="1367"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/store_empty_bucket"/>
+			<date key="operation_end_time" value="2021-06-30T16:41:19.403+02:00"/>
+			<string key="identifier:id" value="a_17716"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_17"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the dm_2_sink to the oven"/>
+			<string key="case:concept:name" value="WF_101_17"/>
+			<string key="SubProcessID" value="46759af1-6f9c-45e5-8b69-9d25020b96fc"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=dm_2_sink_pos&amp;end=ov_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:41:06.168+02:00"/>
+			<string key="event_id" value="1368"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-30T16:41:56.400+02:00"/>
+			<string key="identifier:id" value="a_17737"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="dm_2_sink_pos"/>
+				<string key="parameter_end_position" value="ov_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_17"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:03:42"/>
+			<string key="current_task" value="burning the workpiece of size regular and thickness thinfor 10 seconds"/>
+			<string key="case:concept:name" value="WF_101_17"/>
+			<string key="SubProcessID" value="1b06ad33-5272-42f2-acbf-bfd57eebcca9"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/burn?resource=ov_1&amp;size=regular&amp;thickness=thin&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:42:06.590+02:00"/>
+			<string key="event_id" value="1370"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/burn"/>
+			<date key="operation_end_time" value="2021-06-30T16:42:27.794+02:00"/>
+			<string key="identifier:id" value="a_17790"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_burn_workpiece_size" value="regular"/>
+				<string key="parameter_burn_workpiece_thickness" value="thin"/>
+			</list>
+			<string key="case" value="WF_101_17"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:56"/>
+			<string key="current_task" value="temper the workpiece with intensity: ov_1_temper_high for 40 seconds"/>
+			<string key="case:concept:name" value="WF_101_17"/>
+			<string key="SubProcessID" value="1e6be670-c66f-42bb-aca2-7c5995fcadb9"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/temper?resource=ov_1&amp;intensity=ov_1_temper_high&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:42:33.717+02:00"/>
+			<string key="event_id" value="1374"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/temper"/>
+			<date key="operation_end_time" value="2021-06-30T16:43:25.496+02:00"/>
+			<string key="identifier:id" value="a_17896"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_temper_intensity" value="ov_1_temper_high"/>
+			</list>
+			<string key="case" value="WF_101_17"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:22"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the oven to the milling_machine"/>
+			<string key="case:concept:name" value="WF_101_17"/>
+			<string key="SubProcessID" value="4a4458a3-5d5e-46b5-96fb-f45b384a6181"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/wt/pick_up_and_transport?resource=wt_1&amp;start=ov_1_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:43:30.387+02:00"/>
+			<string key="event_id" value="1378"/>
+			<string key="org:resource" value="wt_1"/>
+			<string key="concept:name" value="/wt/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-30T16:43:56.748+02:00"/>
+			<string key="identifier:id" value="a_17950"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="ov_1_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_17"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:05"/>
+			<string key="current_task" value="transporting the workpiece from the initial to the mill, milling it and transporting it to the initial afterwards"/>
+			<string key="case:concept:name" value="WF_101_17"/>
+			<string key="SubProcessID" value="251e0a6c-da4b-41e3-9bd7-82103c18053c"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/mm/mill?resource=mm_1&amp;start=mm_1_initial_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:44:05.480+02:00"/>
+			<string key="event_id" value="1380"/>
+			<string key="org:resource" value="mm_1"/>
+			<string key="concept:name" value="/mm/mill"/>
+			<date key="operation_end_time" value="2021-06-30T16:44:10.605+02:00"/>
+			<string key="identifier:id" value="a_17968"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="mm_1_initial_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_17"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:14"/>
+			<string key="current_task" value="transporting the workpiece from the initial to the mill, deburring it and transporting it to the ejection afterwards"/>
+			<string key="case:concept:name" value="WF_101_17"/>
+			<string key="SubProcessID" value="155ff9f8-090a-4b3e-a377-e2115e7fe49b"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/mm/deburr?resource=mm_1&amp;start=mm_1_initial_pos&amp;end=sm_1_lb_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:44:16.091+02:00"/>
+			<string key="event_id" value="1383"/>
+			<string key="org:resource" value="mm_1"/>
+			<string key="concept:name" value="/mm/deburr"/>
+			<date key="operation_end_time" value="2021-06-30T16:44:29.934+02:00"/>
+			<string key="identifier:id" value="a_17978"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="mm_1_initial_pos"/>
+				<string key="parameter_end_position" value="sm_1_lb_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_17"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:12"/>
+			<string key="current_task" value="sorting the workpiece which is located at initial without using the nfc reader into the predefined ejection location none"/>
+			<string key="case:concept:name" value="WF_101_17"/>
+			<string key="SubProcessID" value="cc89f628-cf58-4c56-9fcb-cd991d0eb946"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/sm/sort?resource=sm_1&amp;start=sm_1_lb_1_pos&amp;use_nfc=false&amp;end=sm_1_automatic_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:44:33.699+02:00"/>
+			<string key="event_id" value="1386"/>
+			<string key="org:resource" value="sm_1"/>
+			<string key="concept:name" value="/sm/sort"/>
+			<date key="operation_end_time" value="2021-06-30T16:44:52.434+02:00"/>
+			<string key="identifier:id" value="a_17989"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_use_nfc" value="false"/>
+				<string key="parameter_start_position" value="sm_1_lb_1_pos"/>
+				<string key="parameter_end_position" value="sm_1_automatic_pos"/>
+				<float key="parameter_sorting_machine_ejection_position" value="2.0"/>
+			</list>
+			<string key="case" value="WF_101_17"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:39"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the sink_2 to the human_workstation"/>
+			<string key="case:concept:name" value="WF_101_17"/>
+			<string key="SubProcessID" value="fd25daf3-5a8f-4809-bfe1-1fcb66012434"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=sm_1_sink_2_pos&amp;end=hw_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:44:56.918+02:00"/>
+			<string key="event_id" value="1389"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-30T16:45:37.668+02:00"/>
+			<string key="identifier:id" value="a_18009"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="sm_1_sink_2_pos"/>
+				<string key="parameter_end_position" value="hw_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_17"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:01:42"/>
+			<string key="current_task" value=""/>
+			<string key="case:concept:name" value="WF_101_17"/>
+			<string key="SubProcessID" value="3c2aa630-fe33-493b-bf81-3b39cc61000b"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hw/human_review?resource=hw_1&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:45:43.434+02:00"/>
+			<float key="human_workstation_green_button_pressed" value="0.0"/>
+			<string key="event_id" value="1390"/>
+			<string key="org:resource" value="hw_1"/>
+			<string key="concept:name" value="/hw/human_review"/>
+			<date key="operation_end_time" value="2021-06-30T16:45:43.434+02:00"/>
+			<string key="identifier:id" value="a_18021"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters"/>
+			<string key="case" value="WF_101_17"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="WF_101_26"/>
+		<event>
+			<string key="unsatisfied_condition_description" value="&lt;class &apos;ValueError&apos;&gt;:The High Bay Warehouse does not contain any workpiece with the given business_key WF_101"/>
+			<string key="planned_operation_time" value="0 days 00:00:52"/>
+			<string key="case:concept:name" value="WF_101_26"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/unload?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-01T19:11:58.477+02:00"/>
+			<string key="event_id" value="2164"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/unload"/>
+			<date key="operation_end_time" value="2021-07-01T19:11:58.524+02:00"/>
+			<string key="identifier:id" value="a_27814"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_26"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="WF_101_12"/>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:52"/>
+			<string key="current_task" value="unloading a empty bucket from slot 0"/>
+			<string key="case:concept:name" value="WF_101_12"/>
+			<string key="SubProcessID" value="92ac4e59-b46f-4050-accf-3c128b39836f"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/unload?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T17:27:50.601+02:00"/>
+			<string key="event_id" value="988"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/unload"/>
+			<date key="operation_end_time" value="2021-06-25T17:28:35.258+02:00"/>
+			<string key="identifier:id" value="a_12709"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_12"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:40"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the high_bay_warehouse to the dm_2_sink"/>
+			<string key="case:concept:name" value="WF_101_12"/>
+			<string key="SubProcessID" value="b493d0b7-2c70-4d80-b23f-e8197fbbf5df"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_2&amp;start=hbw_2_pos&amp;end=dm_2_sink_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T17:28:45.214+02:00"/>
+			<string key="event_id" value="991"/>
+			<string key="org:resource" value="vgr_2"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-25T17:29:29.291+02:00"/>
+			<string key="identifier:id" value="a_12739"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hbw_2_pos"/>
+				<string key="parameter_end_position" value="dm_2_sink_pos"/>
+			</list>
+			<string key="case" value="WF_101_12"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:47"/>
+			<string key="current_task" value="storing a new empty bucket in slot 0"/>
+			<string key="case:concept:name" value="WF_101_12"/>
+			<string key="SubProcessID" value="b8366524-a36e-4589-9a28-68cd7ef36840"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/store_empty_bucket?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-25T17:29:37.569+02:00"/>
+			<string key="event_id" value="995"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/store_empty_bucket"/>
+			<date key="operation_end_time" value="2021-06-25T17:30:17.727+02:00"/>
+			<string key="identifier:id" value="a_12761"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_12"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="WF_101_32"/>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:52"/>
+			<string key="current_task" value="unloading a empty bucket from slot 0"/>
+			<string key="case:concept:name" value="WF_101_32"/>
+			<string key="SubProcessID" value="abe0a6a5-51de-45f9-b4cb-8d563f83abfe"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/unload?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T16:38:20.712+02:00"/>
+			<string key="event_id" value="2647"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/unload"/>
+			<date key="operation_end_time" value="2021-07-06T16:39:13.041+02:00"/>
+			<string key="identifier:id" value="a_34469"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_32"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:40"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the high_bay_warehouse to the dm_2_sink"/>
+			<string key="case:concept:name" value="WF_101_32"/>
+			<string key="SubProcessID" value="0eef8dd1-03b1-41ab-9c2e-140671bced79"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_2&amp;start=hbw_2_pos&amp;end=dm_2_sink_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T16:39:16.667+02:00"/>
+			<string key="event_id" value="2648"/>
+			<string key="org:resource" value="vgr_2"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-06T16:40:00.790+02:00"/>
+			<string key="identifier:id" value="a_34480"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hbw_2_pos"/>
+				<string key="parameter_end_position" value="dm_2_sink_pos"/>
+			</list>
+			<string key="case" value="WF_101_32"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:47"/>
+			<string key="current_task" value="storing a new empty bucket in slot 0"/>
+			<string key="case:concept:name" value="WF_101_32"/>
+			<string key="SubProcessID" value="91a015b0-a6df-4d67-9496-d7accab5a9f5"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/store_empty_bucket?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T16:40:04.685+02:00"/>
+			<string key="event_id" value="2649"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/store_empty_bucket"/>
+			<date key="operation_end_time" value="2021-07-06T16:40:45.106+02:00"/>
+			<string key="identifier:id" value="a_34486"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_32"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the dm_2_sink to the oven"/>
+			<string key="case:concept:name" value="WF_101_32"/>
+			<string key="SubProcessID" value="1e47d232-29d0-4a3f-a9d1-0e5b0af2eabe"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=dm_2_sink_pos&amp;end=ov_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T16:40:08.257+02:00"/>
+			<string key="event_id" value="2650"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-06T16:40:49.919+02:00"/>
+			<string key="identifier:id" value="a_34492"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="dm_2_sink_pos"/>
+				<string key="parameter_end_position" value="ov_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_32"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:03:42"/>
+			<string key="current_task" value="burning the workpiece of size regular and thickness thinfor 10 seconds"/>
+			<string key="case:concept:name" value="WF_101_32"/>
+			<string key="SubProcessID" value="ae021e8c-ba00-442d-a889-1807cc16410f"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/burn?resource=ov_1&amp;size=regular&amp;thickness=thin&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T16:40:57.659+02:00"/>
+			<string key="event_id" value="2651"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/burn"/>
+			<date key="operation_end_time" value="2021-07-06T16:41:19.110+02:00"/>
+			<string key="identifier:id" value="a_34501"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_burn_workpiece_size" value="regular"/>
+				<string key="parameter_burn_workpiece_thickness" value="thin"/>
+			</list>
+			<string key="case" value="WF_101_32"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:56"/>
+			<string key="current_task" value="temper the workpiece with intensity: ov_1_temper_high for 40 seconds"/>
+			<string key="case:concept:name" value="WF_101_32"/>
+			<string key="SubProcessID" value="f88e6c12-63fe-455c-ac60-c57017e3fe5c"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/temper?resource=ov_1&amp;intensity=ov_1_temper_high&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T16:41:24.675+02:00"/>
+			<string key="event_id" value="2654"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/temper"/>
+			<date key="operation_end_time" value="2021-07-06T16:42:16.262+02:00"/>
+			<string key="identifier:id" value="a_34507"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_temper_intensity" value="ov_1_temper_high"/>
+			</list>
+			<string key="case" value="WF_101_32"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:22"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the oven to the milling_machine"/>
+			<string key="case:concept:name" value="WF_101_32"/>
+			<string key="SubProcessID" value="7cbea518-7cc2-46df-bd1f-f757ad7fccc2"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/wt/pick_up_and_transport?resource=wt_1&amp;start=ov_1_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T16:42:21.275+02:00"/>
+			<string key="event_id" value="2655"/>
+			<string key="org:resource" value="wt_1"/>
+			<string key="concept:name" value="/wt/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-06T16:42:47.489+02:00"/>
+			<string key="identifier:id" value="a_34529"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="ov_1_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_32"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:05"/>
+			<string key="current_task" value="transporting the workpiece from the initial to the mill, milling it and transporting it to the initial afterwards"/>
+			<string key="case:concept:name" value="WF_101_32"/>
+			<string key="SubProcessID" value="a1b3006a-c44d-4fa7-8d0e-b5d75f98d4e0"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/mm/mill?resource=mm_1&amp;start=mm_1_initial_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T16:42:55.985+02:00"/>
+			<string key="event_id" value="2658"/>
+			<string key="org:resource" value="mm_1"/>
+			<string key="concept:name" value="/mm/mill"/>
+			<date key="operation_end_time" value="2021-07-06T16:43:01.163+02:00"/>
+			<string key="identifier:id" value="a_34544"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="mm_1_initial_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_32"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:14"/>
+			<string key="current_task" value="transporting the workpiece from the initial to the mill, deburring it and transporting it to the ejection afterwards"/>
+			<string key="case:concept:name" value="WF_101_32"/>
+			<string key="SubProcessID" value="e671c1d7-291a-4b15-8817-a28b45adff5e"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/mm/deburr?resource=mm_1&amp;start=mm_1_initial_pos&amp;end=sm_1_lb_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T16:43:06.149+02:00"/>
+			<string key="event_id" value="2660"/>
+			<string key="org:resource" value="mm_1"/>
+			<string key="concept:name" value="/mm/deburr"/>
+			<date key="operation_end_time" value="2021-07-06T16:43:20.156+02:00"/>
+			<string key="identifier:id" value="a_34553"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="mm_1_initial_pos"/>
+				<string key="parameter_end_position" value="sm_1_lb_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_32"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:12"/>
+			<string key="current_task" value="sorting the workpiece which is located at initial without using the nfc reader into the predefined ejection location none"/>
+			<string key="case:concept:name" value="WF_101_32"/>
+			<string key="SubProcessID" value="e545528a-c351-4b4b-959e-93a7e85ceb00"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/sm/sort?resource=sm_1&amp;start=sm_1_lb_1_pos&amp;use_nfc=false&amp;end=sm_1_automatic_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T16:43:22.678+02:00"/>
+			<string key="event_id" value="2662"/>
+			<string key="org:resource" value="sm_1"/>
+			<string key="concept:name" value="/sm/sort"/>
+			<date key="operation_end_time" value="2021-07-06T16:43:33.643+02:00"/>
+			<string key="identifier:id" value="a_34560"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_use_nfc" value="false"/>
+				<string key="parameter_start_position" value="sm_1_lb_1_pos"/>
+				<string key="parameter_end_position" value="sm_1_automatic_pos"/>
+				<float key="parameter_sorting_machine_ejection_position" value="2.0"/>
+			</list>
+			<string key="case" value="WF_101_32"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:39"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the sink_2 to the human_workstation"/>
+			<string key="case:concept:name" value="WF_101_32"/>
+			<string key="SubProcessID" value="ea1baec0-9310-4d29-97c8-e8db77f1de85"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=sm_1_sink_2_pos&amp;end=hw_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T16:43:37.307+02:00"/>
+			<string key="event_id" value="2665"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-06T16:44:15.391+02:00"/>
+			<string key="identifier:id" value="a_34572"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="sm_1_sink_2_pos"/>
+				<string key="parameter_end_position" value="hw_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_32"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:01:42"/>
+			<string key="current_task" value="performing a human review of the workpiece"/>
+			<string key="case:concept:name" value="WF_101_32"/>
+			<string key="SubProcessID" value="92dbaf34-efe5-4ad9-872f-490400f848fa"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hw/human_review?resource=hw_1&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T16:44:22.011+02:00"/>
+			<float key="human_workstation_green_button_pressed" value="1.0"/>
+			<string key="event_id" value="2667"/>
+			<string key="org:resource" value="hw_1"/>
+			<string key="concept:name" value="/hw/human_review"/>
+			<date key="operation_end_time" value="2021-07-06T16:44:28.796+02:00"/>
+			<string key="identifier:id" value="a_34587"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters"/>
+			<string key="case" value="WF_101_32"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="unloading a empty bucket from slot 0"/>
+			<string key="case:concept:name" value="WF_101_32"/>
+			<string key="SubProcessID" value="9b29103a-c755-42fd-954d-efb5815f229f"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/get_empty_bucket?resource=hbw_1&amp;slot=hbw_1_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T16:44:31.271+02:00"/>
+			<string key="event_id" value="2670"/>
+			<string key="org:resource" value="hbw_1"/>
+			<string key="concept:name" value="/hbw/get_empty_bucket"/>
+			<date key="operation_end_time" value="2021-07-06T16:45:19.621+02:00"/>
+			<string key="identifier:id" value="a_34603"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_1_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_32"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:24"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the human_workstation to the waiting_platform"/>
+			<string key="case:concept:name" value="WF_101_32"/>
+			<string key="SubProcessID" value="ff18939a-ffcb-4025-a1ff-f5ef3ba9afb2"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=hw_1_pos&amp;end=hbw_1_waiting_platform_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T16:45:28.783+02:00"/>
+			<string key="event_id" value="2672"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-06T16:45:48.271+02:00"/>
+			<string key="identifier:id" value="a_34691"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hw_1_pos"/>
+				<string key="parameter_end_position" value="hbw_1_waiting_platform_pos"/>
+			</list>
+			<string key="case" value="WF_101_32"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:15"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the waiting_platform to the high_bay_warehouse"/>
+			<string key="case:concept:name" value="WF_101_32"/>
+			<string key="SubProcessID" value="abcfb48f-43ba-4669-934d-2d2c9d4b97d3"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=hbw_1_waiting_platform_pos&amp;end=hbw_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T16:46:58.066+02:00"/>
+			<string key="event_id" value="2676"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-07-06T16:47:17.357+02:00"/>
+			<string key="identifier:id" value="a_34726"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hbw_1_waiting_platform_pos"/>
+				<string key="parameter_end_position" value="hbw_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_32"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="storing a new full bucket in slot 0"/>
+			<string key="case:concept:name" value="WF_101_32"/>
+			<string key="SubProcessID" value="67fa3bec-0185-4c95-afad-3339f3b95b35"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/store?resource=hbw_1&amp;slot=hbw_1_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-07-06T16:47:22.471+02:00"/>
+			<string key="event_id" value="2679"/>
+			<string key="org:resource" value="hbw_1"/>
+			<string key="concept:name" value="/hbw/store"/>
+			<date key="operation_end_time" value="2021-07-06T16:48:00.912+02:00"/>
+			<string key="identifier:id" value="a_34738"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_1_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_32"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="WF_101_16"/>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:52"/>
+			<string key="current_task" value="unloading a empty bucket from slot 0"/>
+			<string key="case:concept:name" value="WF_101_16"/>
+			<string key="SubProcessID" value="6b3cf1b0-bb25-47b3-890b-8e262559637b"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/unload?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:20:43.639+02:00"/>
+			<string key="event_id" value="1259"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/unload"/>
+			<date key="operation_end_time" value="2021-06-30T16:21:34.513+02:00"/>
+			<string key="identifier:id" value="a_16282"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_16"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:40"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the high_bay_warehouse to the dm_2_sink"/>
+			<string key="case:concept:name" value="WF_101_16"/>
+			<string key="SubProcessID" value="db9d14a3-ca7a-467d-b7c1-7f2586da2569"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_2&amp;start=hbw_2_pos&amp;end=dm_2_sink_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:21:37.811+02:00"/>
+			<string key="event_id" value="1263"/>
+			<string key="org:resource" value="vgr_2"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-30T16:22:21.013+02:00"/>
+			<string key="identifier:id" value="a_16301"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="hbw_2_pos"/>
+				<string key="parameter_end_position" value="dm_2_sink_pos"/>
+			</list>
+			<string key="case" value="WF_101_16"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:47"/>
+			<string key="current_task" value="storing a new empty bucket in slot 0"/>
+			<string key="case:concept:name" value="WF_101_16"/>
+			<string key="SubProcessID" value="7d046b73-a865-4823-a895-cec74bcc2003"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hbw/store_empty_bucket?resource=hbw_2&amp;slot=hbw_2_automatic_pos&amp;use_nfc=true&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:22:26.139+02:00"/>
+			<string key="event_id" value="1267"/>
+			<string key="org:resource" value="hbw_2"/>
+			<string key="concept:name" value="/hbw/store_empty_bucket"/>
+			<date key="operation_end_time" value="2021-06-30T16:23:06.060+02:00"/>
+			<string key="identifier:id" value="a_16343"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_hbw_slot" value="hbw_2_automatic_pos"/>
+				<string key="parameter_use_nfc" value="true"/>
+			</list>
+			<string key="case" value="WF_101_16"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:46"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the dm_2_sink to the oven"/>
+			<string key="case:concept:name" value="WF_101_16"/>
+			<string key="SubProcessID" value="fa737545-e172-4dae-9874-1078ea7ab99f"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=dm_2_sink_pos&amp;end=ov_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:24:48.169+02:00"/>
+			<string key="event_id" value="1278"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-30T16:25:37.809+02:00"/>
+			<string key="identifier:id" value="a_16831"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="dm_2_sink_pos"/>
+				<string key="parameter_end_position" value="ov_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_16"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:03:42"/>
+			<string key="current_task" value="burning the workpiece of size regular and thickness thinfor 10 seconds"/>
+			<string key="case:concept:name" value="WF_101_16"/>
+			<string key="SubProcessID" value="342e6718-6e6d-4996-a6c2-44dfa251f2b0"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/burn?resource=ov_1&amp;size=regular&amp;thickness=thin&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:25:48.060+02:00"/>
+			<string key="event_id" value="1281"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/burn"/>
+			<date key="operation_end_time" value="2021-06-30T16:26:12.154+02:00"/>
+			<string key="identifier:id" value="a_16872"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_burn_workpiece_size" value="regular"/>
+				<string key="parameter_burn_workpiece_thickness" value="thin"/>
+			</list>
+			<string key="case" value="WF_101_16"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:56"/>
+			<string key="current_task" value="temper the workpiece with intensity: ov_1_temper_high for 40 seconds"/>
+			<string key="case:concept:name" value="WF_101_16"/>
+			<string key="SubProcessID" value="3901d161-9f23-4c17-9396-726dccaf44eb"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/ov/temper?resource=ov_1&amp;intensity=ov_1_temper_high&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:26:17.265+02:00"/>
+			<string key="event_id" value="1286"/>
+			<string key="org:resource" value="ov_1"/>
+			<string key="concept:name" value="/ov/temper"/>
+			<date key="operation_end_time" value="2021-06-30T16:27:11.388+02:00"/>
+			<string key="identifier:id" value="a_16921"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_temper_intensity" value="ov_1_temper_high"/>
+			</list>
+			<string key="case" value="WF_101_16"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:22"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the oven to the milling_machine"/>
+			<string key="case:concept:name" value="WF_101_16"/>
+			<string key="SubProcessID" value="22c48536-98d7-4a8a-a292-de7d70f12801"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/wt/pick_up_and_transport?resource=wt_1&amp;start=ov_1_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:27:17.202+02:00"/>
+			<string key="event_id" value="1289"/>
+			<string key="org:resource" value="wt_1"/>
+			<string key="concept:name" value="/wt/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-30T16:27:43.232+02:00"/>
+			<string key="identifier:id" value="a_16986"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="ov_1_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_16"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:05"/>
+			<string key="current_task" value="transporting the workpiece from the initial to the mill, milling it and transporting it to the initial afterwards"/>
+			<string key="case:concept:name" value="WF_101_16"/>
+			<string key="SubProcessID" value="45f87a70-c58c-41b4-a120-ca3b09b2ccb5"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/mm/mill?resource=mm_1&amp;start=mm_1_initial_pos&amp;end=mm_1_initial_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:27:52.969+02:00"/>
+			<string key="event_id" value="1291"/>
+			<string key="org:resource" value="mm_1"/>
+			<string key="concept:name" value="/mm/mill"/>
+			<date key="operation_end_time" value="2021-06-30T16:27:58.060+02:00"/>
+			<string key="identifier:id" value="a_17004"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="mm_1_initial_pos"/>
+				<string key="parameter_end_position" value="mm_1_initial_pos"/>
+			</list>
+			<string key="case" value="WF_101_16"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:14"/>
+			<string key="current_task" value="transporting the workpiece from the initial to the mill, deburring it and transporting it to the ejection afterwards"/>
+			<string key="case:concept:name" value="WF_101_16"/>
+			<string key="SubProcessID" value="79f566f9-c498-4612-bfaf-ab1e54163c5a"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/mm/deburr?resource=mm_1&amp;start=mm_1_initial_pos&amp;end=sm_1_lb_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:28:04.360+02:00"/>
+			<string key="event_id" value="1292"/>
+			<string key="org:resource" value="mm_1"/>
+			<string key="concept:name" value="/mm/deburr"/>
+			<date key="operation_end_time" value="2021-06-30T16:28:20.810+02:00"/>
+			<string key="identifier:id" value="a_17052"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="mm_1_initial_pos"/>
+				<string key="parameter_end_position" value="sm_1_lb_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_16"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:12"/>
+			<string key="current_task" value="sorting the workpiece which is located at initial without using the nfc reader into the predefined ejection location none"/>
+			<string key="case:concept:name" value="WF_101_16"/>
+			<string key="SubProcessID" value="f71b576c-b6e9-4d86-91b9-f19bfa26c8ac"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/sm/sort?resource=sm_1&amp;start=sm_1_lb_1_pos&amp;use_nfc=false&amp;end=sm_1_automatic_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:28:23.216+02:00"/>
+			<string key="event_id" value="1294"/>
+			<string key="org:resource" value="sm_1"/>
+			<string key="concept:name" value="/sm/sort"/>
+			<date key="operation_end_time" value="2021-06-30T16:28:35.154+02:00"/>
+			<string key="identifier:id" value="a_17086"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_use_nfc" value="false"/>
+				<string key="parameter_start_position" value="sm_1_lb_1_pos"/>
+				<string key="parameter_end_position" value="sm_1_automatic_pos"/>
+				<float key="parameter_sorting_machine_ejection_position" value="2.0"/>
+			</list>
+			<string key="case" value="WF_101_16"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:00:39"/>
+			<string key="current_task" value="picking up and transporting the workpiece from the sink_2 to the human_workstation"/>
+			<string key="case:concept:name" value="WF_101_16"/>
+			<string key="SubProcessID" value="53b1bcab-59ef-48e8-aec3-26705c252f2d"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/vgr/pick_up_and_transport?resource=vgr_1&amp;start=sm_1_sink_2_pos&amp;end=hw_1_pos&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:28:42.640+02:00"/>
+			<string key="event_id" value="1300"/>
+			<string key="org:resource" value="vgr_1"/>
+			<string key="concept:name" value="/vgr/pick_up_and_transport"/>
+			<date key="operation_end_time" value="2021-06-30T16:29:20.779+02:00"/>
+			<string key="identifier:id" value="a_17102"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters">
+				<string key="parameter_start_position" value="sm_1_sink_2_pos"/>
+				<string key="parameter_end_position" value="hw_1_pos"/>
+			</list>
+			<string key="case" value="WF_101_16"/>
+		</event>
+		<event>
+			<string key="planned_operation_time" value="0 days 00:01:42"/>
+			<string key="current_task" value="performing a human review of the workpiece"/>
+			<string key="case:concept:name" value="WF_101_16"/>
+			<string key="SubProcessID" value="1762cb81-4df9-4bf2-a315-2fdc543bf8e1"/>
+			<string key="lifecycle:state" value="inProgress"/>
+			<string key="requested_service_url" value="http://136.199.130.208:5000/hw/human_review?resource=hw_1&amp;business_key=WF_101"/>
+			<string key="process_model_id" value="WF_101"/>
+			<date key="time:timestamp" value="2021-06-30T16:29:24.812+02:00"/>
+			<float key="human_workstation_green_button_pressed" value="0.0"/>
+			<string key="event_id" value="1302"/>
+			<string key="org:resource" value="hw_1"/>
+			<string key="concept:name" value="/hw/human_review"/>
+			<date key="operation_end_time" value="2021-06-30T16:29:41.106+02:00"/>
+			<string key="identifier:id" value="a_17127"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<list key="parameters"/>
+			<string key="case" value="WF_101_16"/>
+		</event>
+	</trace>
+</log>

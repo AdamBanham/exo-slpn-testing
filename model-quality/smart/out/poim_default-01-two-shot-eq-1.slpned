@@ -1,0 +1,581 @@
+# Weight Form
+0
+# adjusters
+3
+# adjusters
+HBW_2_CRPOSX
+MSPEED
+HBW_2_CRPOSY
+# number of places
+24
+# initial marking
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+# number of transitions
+30
+# transition 0
+silent
+# base weight 
+4.23235387942993E-4
+# adjustments for exogenous data
+2.775648753415889E-4
+9.94756089958909
+5.786165837956585
+# adjustments without exogenous data
+1.0
+1.0
+1.0
+# number of input places
+1
+7
+# number of output places
+1
+8
+# transition 1
+silent
+# base weight 
+8.685127973860751E-4
+# adjustments for exogenous data
+4.769812349850911
+6.248679841624641
+4.793501593571446
+# adjustments without exogenous data
+2.6138939369379113
+2.610624368823837
+2.613893763169923
+# number of input places
+1
+2
+# number of output places
+1
+5
+# transition 2
+silent
+# base weight 
+8.887252594235156E-4
+# adjustments for exogenous data
+4.679308945476845
+6.131572149635404
+4.702838538690623
+# adjustments without exogenous data
+2.539716018705116
+2.541035382915249
+2.5223155543205924
+# number of input places
+1
+20
+# number of output places
+1
+2
+# transition 3
+silent
+# base weight 
+4.10043979852621E-4
+# adjustments for exogenous data
+1.0024515883107588E-4
+0.12621387313139915
+24.277461561080393
+# adjustments without exogenous data
+4.99988015349899E-4
+4.989870219184952E-4
+4.998467567785133E-4
+# number of input places
+1
+19
+# number of output places
+1
+23
+# transition 4
+label /sm/sort
+# base weight 
+1.9819770166883914
+# adjustments for exogenous data
+4.193263971678877
+4.188177505608305
+3.59942336832586
+# adjustments without exogenous data
+1.0
+1.0
+1.0
+# number of input places
+1
+11
+# number of output places
+1
+12
+# transition 5
+label /hbw/store
+# base weight 
+4.29816592685736
+# adjustments for exogenous data
+2.978319615861732
+3.5866998202527633
+2.919356220602571
+# adjustments without exogenous data
+1.37125078520408E-4
+1.0
+1.0
+# number of input places
+1
+9
+# number of output places
+1
+21
+# transition 6
+label /hbw/unload
+# base weight 
+1.0
+# adjustments for exogenous data
+1.0
+1.0
+1.0
+# adjustments without exogenous data
+1.0
+1.0
+1.0
+# number of input places
+1
+18
+# number of output places
+1
+22
+# transition 7
+silent
+# base weight 
+7.957030886944732E-4
+# adjustments for exogenous data
+0.08503482934108487
+0.02032657203464496
+0.137487846665437
+# adjustments without exogenous data
+3.378068778585902
+2.693209598885702
+3.3845449001297556
+# number of input places
+3
+1
+5
+15
+# number of output places
+1
+9
+# transition 8
+silent
+# base weight 
+35.26153112878327
+# adjustments for exogenous data
+0.4863498036310473
+4.93589328215904E-4
+1.0735045272419113
+# adjustments without exogenous data
+3.7780681742039586
+2.02709339219141
+3.7924097390974603
+# number of input places
+1
+4
+# number of output places
+1
+2
+# transition 9
+silent
+# base weight 
+1.0
+# adjustments for exogenous data
+1.0
+1.0
+1.0
+# adjustments without exogenous data
+1.0
+1.0
+1.0
+# number of input places
+1
+0
+# number of output places
+1
+14
+# transition 10
+label /mm/mill
+# base weight 
+34.90025421601243
+# adjustments for exogenous data
+3.0105290675657694
+3.100304618675423
+2.701755085106721
+# adjustments without exogenous data
+1.3704419023227287E-4
+1.9729078363441657
+1.9729076922894015
+# number of input places
+1
+4
+# number of output places
+1
+3
+# transition 11
+label /mm/deburr
+# base weight 
+1.9819770166884856
+# adjustments for exogenous data
+4.193263971651285
+4.18817750563064
+3.5994233683321486
+# adjustments without exogenous data
+1.0
+1.0
+1.0
+# number of input places
+1
+3
+# number of output places
+1
+11
+# transition 12
+label /vgr/pick_up_and_transport
+# base weight 
+0.0044968228968919515
+# adjustments for exogenous data
+6.517039789422676
+0.006087362286408318
+5.570084024169794
+# adjustments without exogenous data
+1.0
+1.0
+1.0
+# number of input places
+1
+16
+# number of output places
+1
+1
+# transition 13
+silent
+# base weight 
+4.665707671492167E-4
+# adjustments for exogenous data
+0.04795506929516788
+0.009848630060871843
+1.4976350327074333
+# adjustments without exogenous data
+0.16342398486235532
+0.16342398486220666
+1.261170285597258
+# number of input places
+1
+1
+# number of output places
+1
+16
+# transition 14
+silent
+# base weight 
+1.7820819549110662
+# adjustments for exogenous data
+4.113588349820793
+4.229120783956299
+3.538278677357521
+# adjustments without exogenous data
+1.9859874917969815
+2.053197399467054
+2.055113424607523
+# number of input places
+1
+8
+# number of output places
+1
+4
+# transition 15
+label /hbw/get_empty_bucket
+# base weight 
+0.0012822680813573428
+# adjustments for exogenous data
+3.9713568455052406
+4.991601790146181
+4.001538994190434
+# adjustments without exogenous data
+1.0
+4.6511583621424796E-4
+1.6376559563817373E-4
+# number of input places
+1
+13
+# number of output places
+1
+17
+# transition 16
+silent
+# base weight 
+1.0
+# adjustments for exogenous data
+1.0
+1.0
+1.0
+# adjustments without exogenous data
+1.0
+1.0
+1.0
+# number of input places
+1
+21
+# number of output places
+1
+0
+# transition 17
+silent
+# base weight 
+5.218629415072691
+# adjustments for exogenous data
+0.9166724949702076
+4.936672852773108E-4
+0.9835540602158462
+# adjustments without exogenous data
+2.2221564674764824
+3.52208527566091
+1.0
+# number of input places
+1
+9
+# number of output places
+1
+21
+# transition 18
+label /hw/human_review
+# base weight 
+0.002013286218933386
+# adjustments for exogenous data
+1.1740358029383275
+0.006761633410974436
+1.024209676278996
+# adjustments without exogenous data
+1.0
+1.0
+1.0
+# number of input places
+1
+12
+# number of output places
+1
+13
+# transition 19
+silent
+# base weight 
+5.742339960250992E-4
+# adjustments for exogenous data
+0.3142846267404329
+2.3490997229440856E-4
+0.3388132566465378
+# adjustments without exogenous data
+3.9390219994267497
+3.9305755290363447
+3.8664072103708733
+# number of input places
+1
+13
+# number of output places
+1
+17
+# transition 20
+silent
+# base weight 
+1.21339319145391
+# adjustments for exogenous data
+0.5248691042769242
+4.937513595032879E-4
+1.2301501111854136
+# adjustments without exogenous data
+4.12914144055667
+4.129141599030182
+4.129141687911688
+# number of input places
+1
+22
+# number of output places
+1
+0
+# transition 21
+silent
+# base weight 
+3.7771520689865308
+# adjustments for exogenous data
+2.984061987942652
+3.0723365371853633
+2.6007620877240627
+# adjustments without exogenous data
+1.3712831483785848E-4
+1.0
+1.0
+# number of input places
+1
+22
+# number of output places
+3
+10
+16
+19
+# transition 22
+silent
+# base weight 
+2.952838654381961E-4
+# adjustments for exogenous data
+1.0000000851201422E-4
+26.630802364403714
+4.886664925878798E-4
+# adjustments without exogenous data
+10.581306397552067
+5.3741013623966385
+5.3740971409759775
+# number of input places
+1
+19
+# number of output places
+1
+5
+# transition 23
+silent
+# base weight 
+3.2517184716483933E-4
+# adjustments for exogenous data
+1.1545229429661807
+3.372545281858972E-4
+2.098340108282602
+# adjustments without exogenous data
+1.0
+1.0
+1.0
+# number of input places
+1
+23
+# number of output places
+1
+6
+# transition 24
+label /ov/temper
+# base weight 
+0.00296648916865531
+# adjustments for exogenous data
+6.347441351547546
+6.795407672021278
+6.324080106780932
+# adjustments without exogenous data
+1.0
+1.0
+1.0
+# number of input places
+1
+6
+# number of output places
+1
+7
+# transition 25
+silent
+# base weight 
+1.0145429798867967E-4
+# adjustments for exogenous data
+4.921675725350499E-4
+4.8757771984818946E-4
+4.919804605100777E-4
+# adjustments without exogenous data
+1.0
+1.0
+1.0
+# number of input places
+1
+12
+# number of output places
+1
+20
+# transition 26
+label /hbw/store_empty_bucket
+# base weight 
+0.0016674171292354785
+# adjustments for exogenous data
+0.9045109431255492
+0.017311363800671765
+0.9446197091682169
+# adjustments without exogenous data
+1.0
+1.0
+1.0
+# number of input places
+1
+10
+# number of output places
+1
+15
+# transition 27
+label /ov/burn
+# base weight 
+0.0023083081195094768
+# adjustments for exogenous data
+6.037868326909517
+6.256442392395174
+5.3414368349056085
+# adjustments without exogenous data
+1.0
+1.0
+1.0
+# number of input places
+1
+23
+# number of output places
+1
+6
+# transition 28
+label /wt/pick_up_and_transport
+# base weight 
+17.705448055997813
+# adjustments for exogenous data
+3.54196740833274
+3.382483902811477
+3.082998741517971
+# adjustments without exogenous data
+1.0
+1.0
+1.0
+# number of input places
+1
+7
+# number of output places
+1
+8
+# transition 29
+silent
+# base weight 
+9.046474475078012E-4
+# adjustments for exogenous data
+4.663757284017787
+6.107021063977783
+4.688599884519092
+# adjustments without exogenous data
+2.6292692532599777
+2.6287559916261523
+2.3269612291051978
+# number of input places
+1
+17
+# number of output places
+1
+20

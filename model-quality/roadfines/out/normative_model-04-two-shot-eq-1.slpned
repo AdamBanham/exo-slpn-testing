@@ -1,0 +1,309 @@
+# Weight Form
+0
+# adjusters
+2
+# adjusters
+$fines
+&#35;fines
+# number of places
+9
+# initial marking
+0
+0
+0
+1
+0
+0
+0
+0
+0
+# number of transitions
+18
+# transition 0
+label Send for Credit Collection
+# base weight 
+3.384408306745884
+# adjustments for exogenous data
+58.10230462751114
+8.932310645779432E-4
+# adjustments without exogenous data
+4.994193348920908E-4
+4.994193348920908E-4
+# number of input places
+1
+8
+# number of output places
+1
+4
+# transition 1
+label Send Appeal to Prefecture
+# base weight 
+1.0
+# adjustments for exogenous data
+1.0
+1.0
+# adjustments without exogenous data
+1.0
+1.0
+# number of input places
+1
+5
+# number of output places
+1
+6
+# transition 2
+label Insert Fine Notification
+# base weight 
+3.9080959407784017
+# adjustments for exogenous data
+4.574105991264681
+17.89966768041822
+# adjustments without exogenous data
+4.999924336641757E-4
+4.999924336641757E-4
+# number of input places
+1
+1
+# number of output places
+1
+8
+# transition 3
+label Notify Result Appeal to Offender
+# base weight 
+1.0
+# adjustments for exogenous data
+1.0
+1.0
+# adjustments without exogenous data
+1.0
+1.0
+# number of input places
+1
+7
+# number of output places
+1
+8
+# transition 4
+label Payment
+# base weight 
+0.8091976100932243
+# adjustments for exogenous data
+52.66670233958469
+0.0022458319200626474
+# adjustments without exogenous data
+845.8745749851548
+845.8745749851548
+# number of input places
+1
+8
+# number of output places
+1
+8
+# transition 5
+silent
+# base weight 
+3.8999517085275275
+# adjustments for exogenous data
+69.38201781182343
+38.628647030233005
+# adjustments without exogenous data
+4.685416424913942E-4
+9.81420833582119
+# number of input places
+1
+0
+# number of output places
+1
+8
+# transition 6
+label Receive Result Appeal from Prefecture
+# base weight 
+3.5528916711627296
+# adjustments for exogenous data
+3.9504066064178556
+4.139432766615868
+# adjustments without exogenous data
+4.999993155782901E-4
+4.999993155782901E-4
+# number of input places
+1
+6
+# number of output places
+1
+7
+# transition 7
+silent
+# base weight 
+0.8559608125366603
+# adjustments for exogenous data
+2.6952875207231406
+17.47531547480974
+# adjustments without exogenous data
+5.392382114515235
+5.392382114515235
+# number of input places
+1
+1
+# number of output places
+1
+4
+# transition 8
+label Insert Date Appeal to Prefecture
+# base weight 
+1.5229850244744044E-4
+# adjustments for exogenous data
+0.20279820698617226
+2.580253701852817E-4
+# adjustments without exogenous data
+1.592024233365646E-4
+1.5920242333656464E-4
+# number of input places
+1
+8
+# number of output places
+1
+5
+# transition 9
+silent
+# base weight 
+2.5571576623000323
+# adjustments for exogenous data
+1.0031612223279776
+1.0921191555824377
+# adjustments without exogenous data
+4.054565467539266
+4.054565467539266
+# number of input places
+1
+6
+# number of output places
+1
+4
+# transition 10
+label Payment
+# base weight 
+3.2019261189094266
+# adjustments for exogenous data
+6.479145078318315E-4
+1.3817724725639233
+# adjustments without exogenous data
+4.999999999095697E-4
+4.999999999095697E-4
+# number of input places
+1
+2
+# number of output places
+1
+2
+# transition 11
+silent
+# base weight 
+1.0762036843521945
+# adjustments for exogenous data
+69.1416872975518
+38.159498168423184
+# adjustments without exogenous data
+11.856534068632591
+11.856534068632591
+# number of input places
+1
+0
+# number of output places
+1
+4
+# transition 12
+label Create Fine
+# base weight 
+1.0
+# adjustments for exogenous data
+1.0
+1.0
+# adjustments without exogenous data
+1.0
+1.0
+# number of input places
+1
+3
+# number of output places
+1
+2
+# transition 13
+silent
+# base weight 
+1.52257855539916
+# adjustments for exogenous data
+179.64836220169116
+1.0000000016796989E-4
+# adjustments without exogenous data
+994.8153354122724
+994.8153354122733
+# number of input places
+1
+8
+# number of output places
+1
+4
+# transition 14
+label Add penalty
+# base weight 
+2.6130495681040276
+# adjustments for exogenous data
+37.09945459390528
+0.0012116729912825472
+# adjustments without exogenous data
+4.992479792111143E-4
+4.992479792111143E-4
+# number of input places
+1
+8
+# number of output places
+1
+8
+# transition 15
+label Send Fine
+# base weight 
+5.28153616854205
+# adjustments for exogenous data
+4.5234871656408757E-4
+2.9189573489625373
+# adjustments without exogenous data
+4.999999999451768E-4
+4.999999999451768E-4
+# number of input places
+1
+2
+# number of output places
+1
+1
+# transition 16
+silent
+# base weight 
+2.0025810771206016
+# adjustments for exogenous data
+3.3199704961577145E-4
+3.2530702104854826E-4
+# adjustments without exogenous data
+93.93938642931472
+93.93938642286108
+# number of input places
+1
+2
+# number of output places
+1
+4
+# transition 17
+label Appeal to Judge
+# base weight 
+1.0495663844645784E-4
+# adjustments for exogenous data
+2.795344811398565E-4
+0.6754242981726865
+# adjustments without exogenous data
+3.9721918670438983E-4
+3.972191867043898E-4
+# number of input places
+1
+8
+# number of output places
+1
+0

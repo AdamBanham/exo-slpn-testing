@@ -1,3 +1,8 @@
+# ignore mimic event logs
+model-quality/mimic/mimic_exogenous_BP1.xes
+model-quality/mimic/mimic_s_sampled.xes
+model-quality/mimic/mimic_sampled.xes
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

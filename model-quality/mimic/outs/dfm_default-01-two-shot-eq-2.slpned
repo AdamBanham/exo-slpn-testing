@@ -1,0 +1,1817 @@
+# Weight Form
+1
+# adjusters
+1
+# adjusters
+BP1
+# number of places
+14
+# initial marking
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# number of transitions
+128
+# transition 0
+silent
+# base weight 
+0.05266224305920333
+# adjustments for exogenous data
+1.0
+# adjustments without exogenous data
+923.8763209809995
+# number of input places
+1
+0
+# number of output places
+1
+1
+# transition 1
+label no action after 48+ hours
+# base weight 
+0.05188292362368473
+# adjustments for exogenous data
+490.7218942581146
+# adjustments without exogenous data
+334.2757430313053
+# number of input places
+1
+2
+# number of output places
+1
+1
+# transition 2
+label 48+ hours
+# base weight 
+4.799983615610616E-4
+# adjustments for exogenous data
+527.0149411284507
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+2
+# number of output places
+1
+10
+# transition 3
+label no action after 48+ hours
+# base weight 
+62.63943594283865
+# adjustments for exogenous data
+1.7990182508487222E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+3
+# number of output places
+1
+1
+# transition 4
+label 18 gauge
+# base weight 
+175.8360681173078
+# adjustments for exogenous data
+4.579469554225137E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+3
+# number of output places
+1
+3
+# transition 5
+label 20 gauge
+# base weight 
+150.02200576149636
+# adjustments for exogenous data
+0.19799287030726534
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+3
+# number of output places
+1
+4
+# transition 6
+label ekg
+# base weight 
+0.02346174904734867
+# adjustments for exogenous data
+948.5420144999459
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+3
+# number of output places
+1
+5
+# transition 7
+label ct scan
+# base weight 
+22.765423337139463
+# adjustments for exogenous data
+936.7185335890673
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+3
+# number of output places
+1
+6
+# transition 8
+label arterial line
+# base weight 
+78.78570989650471
+# adjustments for exogenous data
+996.4348827555253
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+3
+# number of output places
+1
+7
+# transition 9
+label urine culture
+# base weight 
+19.00488277802323
+# adjustments for exogenous data
+916.1938408387762
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+3
+# number of output places
+1
+8
+# transition 10
+label prexisting blood cultured
+# base weight 
+0.0014068329092205463
+# adjustments for exogenous data
+862.1970724003534
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+3
+# number of output places
+1
+9
+# transition 11
+label 48+ hours
+# base weight 
+0.0033529622719704008
+# adjustments for exogenous data
+908.7903432413187
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+3
+# number of output places
+1
+10
+# transition 12
+label invasive ventilation
+# base weight 
+63.03702443476391
+# adjustments for exogenous data
+4.911512469178839E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+3
+# number of output places
+1
+11
+# transition 13
+label chest x-ray
+# base weight 
+74.85474721404543
+# adjustments for exogenous data
+256.7759399384726
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+3
+# number of output places
+1
+12
+# transition 14
+label multi lumen
+# base weight 
+51.461424012431664
+# adjustments for exogenous data
+872.3494342540691
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+3
+# number of output places
+1
+13
+# transition 15
+label no action after 48+ hours
+# base weight 
+345.39895803481903
+# adjustments for exogenous data
+3.662363149530195E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+4
+# number of output places
+1
+1
+# transition 16
+label extubation
+# base weight 
+3.687792566273846E-4
+# adjustments for exogenous data
+854.7316466710838
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+4
+# number of output places
+1
+2
+# transition 17
+label 18 gauge
+# base weight 
+728.6212562427959
+# adjustments for exogenous data
+2.935344055621827E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+4
+# number of output places
+1
+3
+# transition 18
+label 20 gauge
+# base weight 
+850.0636590193528
+# adjustments for exogenous data
+4.890083090141079E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+4
+# number of output places
+1
+4
+# transition 19
+label ekg
+# base weight 
+448.9955442208655
+# adjustments for exogenous data
+4.69988744634347E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+4
+# number of output places
+1
+5
+# transition 20
+label ct scan
+# base weight 
+4.740816235878792E-4
+# adjustments for exogenous data
+854.148193713008
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+4
+# number of output places
+1
+6
+# transition 21
+label arterial line
+# base weight 
+1.0308308086737393E-4
+# adjustments for exogenous data
+931.1240113637369
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+4
+# number of output places
+1
+7
+# transition 22
+label urine culture
+# base weight 
+4.889098813709327E-4
+# adjustments for exogenous data
+952.4003841071974
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+4
+# number of output places
+1
+8
+# transition 23
+label prexisting blood cultured
+# base weight 
+48.33306609142562
+# adjustments for exogenous data
+938.1242014236323
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+4
+# number of output places
+1
+9
+# transition 24
+label 48+ hours
+# base weight 
+3.2085839414282014E-4
+# adjustments for exogenous data
+938.6543469396968
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+4
+# number of output places
+1
+10
+# transition 25
+label invasive ventilation
+# base weight 
+307.7642357454864
+# adjustments for exogenous data
+860.4521084743913
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+4
+# number of output places
+1
+11
+# transition 26
+label chest x-ray
+# base weight 
+512.0339940630145
+# adjustments for exogenous data
+4.352695693710733E-4
+# adjustments without exogenous data
+914.6450249613896
+# number of input places
+1
+4
+# number of output places
+1
+12
+# transition 27
+label multi lumen
+# base weight 
+271.16217668259793
+# adjustments for exogenous data
+9.620877886990494
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+4
+# number of output places
+1
+13
+# transition 28
+label no action after 48+ hours
+# base weight 
+15.916210672857165
+# adjustments for exogenous data
+911.3790081170522
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+5
+# number of output places
+1
+1
+# transition 29
+label 18 gauge
+# base weight 
+10.2790834624896
+# adjustments for exogenous data
+907.0992362558326
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+5
+# number of output places
+1
+3
+# transition 30
+label 20 gauge
+# base weight 
+2.080805898404179
+# adjustments for exogenous data
+964.0418642837769
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+5
+# number of output places
+1
+4
+# transition 31
+label ekg
+# base weight 
+73.91727980384738
+# adjustments for exogenous data
+4.4919314877083476E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+5
+# number of output places
+1
+5
+# transition 32
+label ct scan
+# base weight 
+27.59509738578931
+# adjustments for exogenous data
+0.6392009480785461
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+5
+# number of output places
+1
+6
+# transition 33
+label arterial line
+# base weight 
+3.087355896199103
+# adjustments for exogenous data
+935.818359907843
+# adjustments without exogenous data
+618.5134719775986
+# number of input places
+1
+5
+# number of output places
+1
+7
+# transition 34
+label urine culture
+# base weight 
+2.0182006221977997
+# adjustments for exogenous data
+915.3821371975001
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+5
+# number of output places
+1
+8
+# transition 35
+label prexisting blood cultured
+# base weight 
+28.909437196354734
+# adjustments for exogenous data
+918.247052178117
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+5
+# number of output places
+1
+9
+# transition 36
+label 48+ hours
+# base weight 
+66.27328613989556
+# adjustments for exogenous data
+4.7231999422529645E-4
+# adjustments without exogenous data
+4.4610451626634907E-4
+# number of input places
+1
+5
+# number of output places
+1
+10
+# transition 37
+label invasive ventilation
+# base weight 
+22.31073705080252
+# adjustments for exogenous data
+754.3145648379166
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+5
+# number of output places
+1
+11
+# transition 38
+label chest x-ray
+# base weight 
+100.88807767264933
+# adjustments for exogenous data
+192.3506669756628
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+5
+# number of output places
+1
+12
+# transition 39
+label multi lumen
+# base weight 
+10.523528631369022
+# adjustments for exogenous data
+885.2766694431673
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+5
+# number of output places
+1
+13
+# transition 40
+label no action after 48+ hours
+# base weight 
+32.452019550215745
+# adjustments for exogenous data
+995.5717475768346
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+6
+# number of output places
+1
+1
+# transition 41
+label 18 gauge
+# base weight 
+0.0016314969205582235
+# adjustments for exogenous data
+923.2917333366325
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+6
+# number of output places
+1
+3
+# transition 42
+label 20 gauge
+# base weight 
+174.23312825397224
+# adjustments for exogenous data
+383.0444861194153
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+6
+# number of output places
+1
+4
+# transition 43
+label ekg
+# base weight 
+111.5655946893937
+# adjustments for exogenous data
+59.71607712836904
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+6
+# number of output places
+1
+5
+# transition 44
+label ct scan
+# base weight 
+9.25188610972048E-4
+# adjustments for exogenous data
+915.4391059596201
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+6
+# number of output places
+1
+6
+# transition 45
+label arterial line
+# base weight 
+107.01539439716656
+# adjustments for exogenous data
+67.76518849066912
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+6
+# number of output places
+1
+7
+# transition 46
+label prexisting blood cultured
+# base weight 
+87.90677173885872
+# adjustments for exogenous data
+637.9115790097451
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+6
+# number of output places
+1
+9
+# transition 47
+label 48+ hours
+# base weight 
+142.79920493123686
+# adjustments for exogenous data
+2.6870379925522783E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+6
+# number of output places
+1
+10
+# transition 48
+label chest x-ray
+# base weight 
+70.29175891169976
+# adjustments for exogenous data
+961.3211929919621
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+6
+# number of output places
+1
+12
+# transition 49
+label no action after 48+ hours
+# base weight 
+2.2731729478993914E-4
+# adjustments for exogenous data
+987.0464350824542
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+7
+# number of output places
+1
+1
+# transition 50
+label 18 gauge
+# base weight 
+371.07682029370494
+# adjustments for exogenous data
+1.6468670145542268E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+7
+# number of output places
+1
+3
+# transition 51
+label 20 gauge
+# base weight 
+303.0745201548614
+# adjustments for exogenous data
+4.443308982788986E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+7
+# number of output places
+1
+4
+# transition 52
+label ekg
+# base weight 
+323.12017811106125
+# adjustments for exogenous data
+4.902181737716635E-4
+# adjustments without exogenous data
+4.8186031848826904E-4
+# number of input places
+1
+7
+# number of output places
+1
+5
+# transition 53
+label ct scan
+# base weight 
+261.5922251623694
+# adjustments for exogenous data
+4.551200106877185E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+7
+# number of output places
+1
+6
+# transition 54
+label arterial line
+# base weight 
+3.375071691794378E-4
+# adjustments for exogenous data
+986.0459706151619
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+7
+# number of output places
+1
+7
+# transition 55
+label prexisting blood cultured
+# base weight 
+98.28247861683545
+# adjustments for exogenous data
+943.9748963709646
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+7
+# number of output places
+1
+9
+# transition 56
+label 48+ hours
+# base weight 
+38.76977705136753
+# adjustments for exogenous data
+968.0843867087879
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+7
+# number of output places
+1
+10
+# transition 57
+label invasive ventilation
+# base weight 
+228.75099552877606
+# adjustments for exogenous data
+982.096035835675
+# adjustments without exogenous data
+3.171072488763112E-4
+# number of input places
+1
+7
+# number of output places
+1
+11
+# transition 58
+label chest x-ray
+# base weight 
+432.05044003981163
+# adjustments for exogenous data
+4.8636167118589954E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+7
+# number of output places
+1
+12
+# transition 59
+label multi lumen
+# base weight 
+331.33620199532766
+# adjustments for exogenous data
+850.4140178913822
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+7
+# number of output places
+1
+13
+# transition 60
+label no action after 48+ hours
+# base weight 
+0.011616824674715281
+# adjustments for exogenous data
+999.9993129567599
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+8
+# number of output places
+1
+1
+# transition 61
+label 20 gauge
+# base weight 
+365.97913959327036
+# adjustments for exogenous data
+2.4701543178567693E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+8
+# number of output places
+1
+4
+# transition 62
+label ekg
+# base weight 
+529.8327590706941
+# adjustments for exogenous data
+984.666148178746
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+8
+# number of output places
+1
+5
+# transition 63
+label ct scan
+# base weight 
+0.005498393687780937
+# adjustments for exogenous data
+862.9108464418343
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+8
+# number of output places
+1
+6
+# transition 64
+label arterial line
+# base weight 
+0.0020224177601415186
+# adjustments for exogenous data
+948.5159566469652
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+8
+# number of output places
+1
+7
+# transition 65
+label prexisting blood cultured
+# base weight 
+820.7135846236336
+# adjustments for exogenous data
+334.1931497068554
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+8
+# number of output places
+1
+9
+# transition 66
+label 48+ hours
+# base weight 
+602.2842934119535
+# adjustments for exogenous data
+4.877287115750361E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+8
+# number of output places
+1
+10
+# transition 67
+label chest x-ray
+# base weight 
+492.47893652739015
+# adjustments for exogenous data
+4.1500867781480946E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+8
+# number of output places
+1
+12
+# transition 68
+label no action after 48+ hours
+# base weight 
+0.013134218980038238
+# adjustments for exogenous data
+39.95606049897567
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+9
+# number of output places
+1
+1
+# transition 69
+label 18 gauge
+# base weight 
+1.196507811201096
+# adjustments for exogenous data
+1.8472896744436555
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+9
+# number of output places
+1
+3
+# transition 70
+label 20 gauge
+# base weight 
+0.003038482305499813
+# adjustments for exogenous data
+42.08504250237066
+# adjustments without exogenous data
+9.245486659073505
+# number of input places
+1
+9
+# number of output places
+1
+4
+# transition 71
+label ekg
+# base weight 
+1.0719486022328766
+# adjustments for exogenous data
+25.728564767386242
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+9
+# number of output places
+1
+5
+# transition 72
+label ct scan
+# base weight 
+1.5542634964473019
+# adjustments for exogenous data
+0.6755028404350478
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+9
+# number of output places
+1
+6
+# transition 73
+label arterial line
+# base weight 
+2.028672345445635
+# adjustments for exogenous data
+1.0898657907449623
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+9
+# number of output places
+1
+7
+# transition 74
+label urine culture
+# base weight 
+1.002582896156448
+# adjustments for exogenous data
+1.0000055915192626E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+9
+# number of output places
+1
+8
+# transition 75
+label prexisting blood cultured
+# base weight 
+1.0650055746733926
+# adjustments for exogenous data
+4.936042706515719E-4
+# adjustments without exogenous data
+4.933273726013536E-4
+# number of input places
+1
+9
+# number of output places
+1
+9
+# transition 76
+label 48+ hours
+# base weight 
+0.49353832077588783
+# adjustments for exogenous data
+47.29473971990262
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+9
+# number of output places
+1
+10
+# transition 77
+label chest x-ray
+# base weight 
+0.5714110735566087
+# adjustments for exogenous data
+48.68789963082918
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+9
+# number of output places
+1
+12
+# transition 78
+label multi lumen
+# base weight 
+0.09266191708497809
+# adjustments for exogenous data
+36.6608613432219
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+9
+# number of output places
+1
+13
+# transition 79
+label 20 gauge
+# base weight 
+1.0242128059895137E-4
+# adjustments for exogenous data
+228.38625886769628
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+10
+# number of output places
+1
+4
+# transition 80
+label chest x-ray
+# base weight 
+0.7870029477758408
+# adjustments for exogenous data
+217.56711748641658
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+10
+# number of output places
+1
+12
+# transition 81
+label 18 gauge
+# base weight 
+10.272041785805607
+# adjustments for exogenous data
+1.1819497549562334
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+11
+# number of output places
+1
+3
+# transition 82
+label 20 gauge
+# base weight 
+6.056478883232206
+# adjustments for exogenous data
+4.1278278111320937E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+11
+# number of output places
+1
+4
+# transition 83
+label ekg
+# base weight 
+2.0172612504348777
+# adjustments for exogenous data
+102.08870575725349
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+11
+# number of output places
+1
+5
+# transition 84
+label ct scan
+# base weight 
+3.9138363725604446
+# adjustments for exogenous data
+4.298344531172211E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+11
+# number of output places
+1
+6
+# transition 85
+label arterial line
+# base weight 
+7.515863005770146
+# adjustments for exogenous data
+30.455182948871737
+# adjustments without exogenous data
+2.4155588992736006E-4
+# number of input places
+1
+11
+# number of output places
+1
+7
+# transition 86
+label prexisting blood cultured
+# base weight 
+3.3733244452086626
+# adjustments for exogenous data
+0.6409199766041235
+# adjustments without exogenous data
+204.92579933275513
+# number of input places
+1
+11
+# number of output places
+1
+9
+# transition 87
+label 48+ hours
+# base weight 
+4.574401998826639E-4
+# adjustments for exogenous data
+263.91813605031405
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+11
+# number of output places
+1
+10
+# transition 88
+label invasive ventilation
+# base weight 
+3.640610908306009E-4
+# adjustments for exogenous data
+131.1222915441699
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+11
+# number of output places
+1
+11
+# transition 89
+label chest x-ray
+# base weight 
+2.51300885982627
+# adjustments for exogenous data
+347.97275679032464
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+11
+# number of output places
+1
+12
+# transition 90
+label multi lumen
+# base weight 
+8.709984872907308
+# adjustments for exogenous data
+3.857662183870596E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+11
+# number of output places
+1
+13
+# transition 91
+label no action after 48+ hours
+# base weight 
+0.013419452815143293
+# adjustments for exogenous data
+992.8028004829816
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+12
+# number of output places
+1
+1
+# transition 92
+label extubation
+# base weight 
+121.27356856156838
+# adjustments for exogenous data
+4.8769808606259277E-4
+# adjustments without exogenous data
+587.8474653097808
+# number of input places
+1
+12
+# number of output places
+1
+2
+# transition 93
+label 18 gauge
+# base weight 
+3.729805851606148E-4
+# adjustments for exogenous data
+944.3225705738602
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+12
+# number of output places
+1
+3
+# transition 94
+label 20 gauge
+# base weight 
+118.85963537261928
+# adjustments for exogenous data
+4.7113502174801736E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+12
+# number of output places
+1
+4
+# transition 95
+label ekg
+# base weight 
+155.03077015684747
+# adjustments for exogenous data
+94.88725555440875
+# adjustments without exogenous data
+488.55198766063353
+# number of input places
+1
+12
+# number of output places
+1
+5
+# transition 96
+label ct scan
+# base weight 
+3.6246585636577454E-4
+# adjustments for exogenous data
+854.6082180644767
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+12
+# number of output places
+1
+6
+# transition 97
+label arterial line
+# base weight 
+75.33237643685365
+# adjustments for exogenous data
+986.9625205595565
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+12
+# number of output places
+1
+7
+# transition 98
+label urine culture
+# base weight 
+116.76061787700067
+# adjustments for exogenous data
+4.903589570231214E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+12
+# number of output places
+1
+8
+# transition 99
+label prexisting blood cultured
+# base weight 
+174.18472195024762
+# adjustments for exogenous data
+629.3348733932478
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+12
+# number of output places
+1
+9
+# transition 100
+label 48+ hours
+# base weight 
+230.69833997780088
+# adjustments for exogenous data
+3.652470631164006E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+12
+# number of output places
+1
+10
+# transition 101
+label invasive ventilation
+# base weight 
+218.63528561948104
+# adjustments for exogenous data
+919.200757632216
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+12
+# number of output places
+1
+11
+# transition 102
+label chest x-ray
+# base weight 
+177.75850626214788
+# adjustments for exogenous data
+4.8822306314714743E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+12
+# number of output places
+1
+12
+# transition 103
+label multi lumen
+# base weight 
+82.4576573786228
+# adjustments for exogenous data
+921.082197768107
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+12
+# number of output places
+1
+13
+# transition 104
+label no action after 48+ hours
+# base weight 
+4.8007223270253075E-4
+# adjustments for exogenous data
+887.6141795243096
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+13
+# number of output places
+1
+1
+# transition 105
+label 18 gauge
+# base weight 
+16.853335466436324
+# adjustments for exogenous data
+1.1104340443657814E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+13
+# number of output places
+1
+3
+# transition 106
+label 20 gauge
+# base weight 
+5.103692511304418
+# adjustments for exogenous data
+990.8895358891152
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+13
+# number of output places
+1
+4
+# transition 107
+label ekg
+# base weight 
+18.239169593323385
+# adjustments for exogenous data
+1.3432741939914188E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+13
+# number of output places
+1
+5
+# transition 108
+label ct scan
+# base weight 
+6.655922393809476
+# adjustments for exogenous data
+100.64203300639153
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+13
+# number of output places
+1
+6
+# transition 109
+label arterial line
+# base weight 
+21.205289221752825
+# adjustments for exogenous data
+52.66366790381855
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+13
+# number of output places
+1
+7
+# transition 110
+label urine culture
+# base weight 
+5.195445517162206
+# adjustments for exogenous data
+984.1486577590362
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+13
+# number of output places
+1
+8
+# transition 111
+label prexisting blood cultured
+# base weight 
+13.798619989467651
+# adjustments for exogenous data
+1.385212726694355E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+13
+# number of output places
+1
+9
+# transition 112
+label 48+ hours
+# base weight 
+0.10994867025193288
+# adjustments for exogenous data
+688.7831645920966
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+13
+# number of output places
+1
+10
+# transition 113
+label invasive ventilation
+# base weight 
+0.009330500927164547
+# adjustments for exogenous data
+688.0883289486042
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+13
+# number of output places
+1
+11
+# transition 114
+label chest x-ray
+# base weight 
+25.910722564921343
+# adjustments for exogenous data
+57.250142834430896
+# adjustments without exogenous data
+4.671833173859439E-4
+# number of input places
+1
+13
+# number of output places
+1
+12
+# transition 115
+label multi lumen
+# base weight 
+7.072175283620308
+# adjustments for exogenous data
+153.57127175490976
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+13
+# number of output places
+1
+13
+# transition 116
+label multi lumen
+# base weight 
+71.1128955169477
+# adjustments for exogenous data
+17.551013260316047
+# adjustments without exogenous data
+8.8458029388457
+# number of input places
+1
+0
+# number of output places
+1
+13
+# transition 117
+label chest x-ray
+# base weight 
+21.557642911453378
+# adjustments for exogenous data
+560.8873393197558
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+0
+# number of output places
+1
+12
+# transition 118
+label invasive ventilation
+# base weight 
+118.71250965393065
+# adjustments for exogenous data
+16.91653668440413
+# adjustments without exogenous data
+137.9236431743605
+# number of input places
+1
+0
+# number of output places
+1
+11
+# transition 119
+label prexisting blood cultured
+# base weight 
+3.196631408139147E-4
+# adjustments for exogenous data
+918.7622698502538
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+0
+# number of output places
+1
+9
+# transition 120
+label arterial line
+# base weight 
+33.74554001716819
+# adjustments for exogenous data
+4.0752620939079595E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+0
+# number of output places
+1
+7
+# transition 121
+label ct scan
+# base weight 
+4.7553807323160954E-4
+# adjustments for exogenous data
+515.8150852688345
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+0
+# number of output places
+1
+6
+# transition 122
+label ekg
+# base weight 
+3.363552523355749E-4
+# adjustments for exogenous data
+979.8213549875815
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+0
+# number of output places
+1
+5
+# transition 123
+label 20 gauge
+# base weight 
+137.39208486695892
+# adjustments for exogenous data
+4.1800309133162045E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+0
+# number of output places
+1
+4
+# transition 124
+label 18 gauge
+# base weight 
+125.18003200191889
+# adjustments for exogenous data
+4.562803135853454E-4
+# adjustments without exogenous data
+1.0
+# number of input places
+1
+0
+# number of output places
+1
+3
+# transition 125
+silent
+# base weight 
+7.510040168990165
+# adjustments for exogenous data
+1.0
+# adjustments without exogenous data
+859.0841587872939
+# number of input places
+1
+12
+# number of output places
+1
+1
+# transition 126
+silent
+# base weight 
+5.139098166891962
+# adjustments for exogenous data
+1.0
+# adjustments without exogenous data
+4.136150856765139E-4
+# number of input places
+1
+10
+# number of output places
+1
+1
+# transition 127
+silent
+# base weight 
+851.5014399513527
+# adjustments for exogenous data
+1.0
+# adjustments without exogenous data
+4.810775465668738E-4
+# number of input places
+1
+4
+# number of output places
+1
+1
