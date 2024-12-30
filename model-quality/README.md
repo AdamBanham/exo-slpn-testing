@@ -5,7 +5,7 @@ to compare between approaches.
 Where possible all data used can be found in subfolders, with the extraction
 scripted used to prepare and generate exogenous data.
 Notably, MIMIC data cannot be directly redistrubed so instead we refer users
-back to the original submission for the extract processes.
+back to our previous work for the extraction processes [1].
 
 For existing approaches, the ProM Gui was used to perform discovery and
 conformance checking. While for the proposed approch a programatic code runner 
@@ -74,3 +74,8 @@ Decide what weight form for exo-slpns you would select to evaluate:
 The data-aware unit Earth mover conformance checking does take a much longer
 on the following models: the POWL model for roadfines and POWL model for mimic.
 In these cases, the measurement can take up to 24 hours, even when threaded.
+
+## References
+
+[1] Banham, A., Leemans, S.J.J., Wynn, M.T., Andrews, R., Laupland, K.B., Shinners,
+L.: xPM: Enhancing exogenous data visibility. Artif. Intell. Medicine (2022)
