@@ -18,7 +18,7 @@ and two subfolders, 'models' and 'out'.
 The 'models' subfolders contain the based control-flow models and existing approaches
 enhanced models.
 The 'out' subfolders contain the discovered exo-slpns and their data-aware
-unit Earth movers conformance measurement.
+unit Earth movers conformance measurements.
 
 ## Code Runner
 
@@ -26,15 +26,16 @@ The code runner for this evaluation can be found in the ExogenousData Package
 for ProM. The runner in question is [ExoSLPNModelQualityTesting](https://github.com/promworkbench/ExogenousData/blob/main/src/org/processmining/qut/exogenousdata/ab/jobs/ExoSLPNModelQualityTesting.java)
 
 Users should clone the ExogenousData project from github and open the plugin 
-using Eclipse.  Some manual editing in the code is 
+using Eclipse IDE.  Some manual editing in the code is 
 required to direct the runner to the correct directories and signpost where 
 the stdout should be generated, the following section outlines these steps.
 
 The JRE used for the run configuration was version 1.8.0_251, but the ProM
-framework can be run on latter versions.The run configuration for the code 
-runner should be set up with the following parameters:
+framework can be run on latter versions. The run configuration for the code 
+runner should be set up with the following parameters when running from Eclipse:
 ```code
--ea -Xmx50G -XX:MaxPermSize=256m -Djava.library.path=. -Djava.util.Arrays.useLegacyMergeSort=true  -Djava.library.path=.\lib\
+-ea -Xmx50G -XX:MaxPermSize=256m -Djava.library.path=. -Djava.util.Arrays.useLegacyMergeSort=true  
+-Djava.library.path=.\lib\
 ```
 
 ## Reproduction Steps
