@@ -3,6 +3,10 @@ model-quality/mimic/mimic_exogenous_BP1.xes
 model-quality/mimic/mimic_s_sampled.xes
 model-quality/mimic/mimic_sampled.xes
 
+# ignore the big files
+model-quality/roadfines/roadfines.xes
+model-quality/smart/stash/Cleaned Event Log.zip
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
